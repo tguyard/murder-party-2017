@@ -1,0 +1,92 @@
+@import "colors.scss"
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Noto+Sans:400,400i,700,700i|Satisfy')
+
+body
+    font-family: 'Noto Sans', sans-serif
+    // font-family: 'Dancing Script', cursive;
+    // font-family: 'Satisfy', cursive;
+
+.mem
+  font-family: 'Dancing Script', cursive
+  font-size: 1.4rem
+
+body
+  margin: 0
+
+.main
+  display: flex
+  flex-direction: column
+  height: 100vh
+  width: 100vw
+  color: #eee
+  overflow: auto
+
+.header
+  display: flex
+  app-menu
+    padding: 1rem
+  h1
+    margin: auto
+    font-size: 1.1rem
+
+.center
+  align-self: center
+
+section
+  padding: 1rem
+  display: flex
+  flex-direction: column
+  height: 100%
+
+article
+  padding-top: .8rem
+  padding-bottom: .8rem
+  border-bottom: 1px solid $gray-300
+  &:first-child
+    border-top: 1px solid $gray-300
+
+.description
+  font-size: 0.8rem
+
+textarea
+  width: 100%
+  height: 4rem
+  padding: 5px
+  box-sizing: border-box
+
+button, .button
+  width: 100%
+  padding: .6rem
+  border: none
+  background-color: rgba(255,255,255,.5)
+  text-decoration: none
+  font-size: 1.2rem
+  color: #eee
+  display: block
+  box-sizing: border-box
+  text-align: center
+
+.memory-bg
+  background-color: $green-700
+.fragment-bg
+  background-color: $red-700
+.search-bg
+  background-color: $blue-700
+
+.bottom
+  margin-top: auto
+
+.success
+  color: $green-700
+.danger
+  color: $red-700
+
+.memory
+  background-color: $green-700
+
+.search
+  background-color: $blue-700
+
+.fragment
+  background-color: $red-700

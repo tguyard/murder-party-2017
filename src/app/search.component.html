@@ -1,0 +1,19 @@
+<div class="search main">
+  <div class="header">
+    <app-menu></app-menu>
+    <h1 class="center">Creuse toi la tête, ça va te revenir !</h1>
+  </div>
+
+
+  <section>
+    <p class="description">Trouve 3 dates/objets/personnes... issus
+      de ton passé, peut-être qu'un souvenir te reviendras</p>
+    <textarea [ngModel]="words" (ngModelChange)="onChange($event)"></textarea>
+    <div class="description" *ngIf="fragment == null && words != null && words !== ''">Continue à chercher</div>
+    <button type="button" (click)="gotoFragment()" *ngIf="fragment != null">Oh un souvenir !</button>
+
+    <div class="bottom">
+      <a class="bottom button memory-bg" href="#/memory"> Ma mémoire </a>
+    </div>
+  </section>
+</div>

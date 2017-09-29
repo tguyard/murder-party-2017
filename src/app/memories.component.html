@@ -1,0 +1,20 @@
+<div class="memory main">
+  <div class="header">
+    <app-menu></app-menu>
+    <h1 class="center">Ma mémoire !</h1>
+  </div>
+
+  <section>
+    <article class="mem" *ngFor="let fragment of memoryService.saved"
+    (click)="fragment.isOpened = !fragment.isOpened">
+      <div class="mem-title" [innerHTML]="fragment.title"></div>
+      <div class="mem-body" [innerHTML]="fragment.details" *ngIf="fragment.isOpened"></div>
+    </article>
+
+    <div class="bottom">
+      <a class="button search-bg" href="#/search">Chercher un souvenir</a>
+      <button type="button" (click)="memoryService.clear()">CLEAR</button>
+    </div>
+
+  </section>
+</div>
