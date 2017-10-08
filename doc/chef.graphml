@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
-  <!--Created by yEd 3.17.1-->
+  <!--Created by yEd 3.17-->
   <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
@@ -107,7 +107,7 @@ par un blanc, un autre blanc le défend<y:LabelModel>
           <y:Geometry height="75.0" width="300.0" x="989.8208532571043" y="-254.88112788290317"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="294.748046875" x="2.6259765625" y="28.515624999999943">DIAMANT: J'ai une Mine de diamant, il fait chaud<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="294.748046875" x="2.6259765625" y="28.515625">DIAMANT: J'ai une Mine de diamant, il fait chaud<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -260,10 +260,10 @@ je m'en suivent car je l'ai organisé avec Maurice au repère<y:LabelModel>
     <node id="n14">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="362.3341884268816"/>
+          <y:Geometry height="75.0" width="331.7312266112267" x="2383.061524601535" y="363.00256528064483"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="316.837890625" x="7.446667993113351" y="21.53125">Le monstre le explique qu'il vont perdre la mémoire
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="358.984375" x="-13.626574194386649" y="21.53125">pub 2 :Le monstre le explique qu'il vont perdre la mémoire
 des quelques dernières années<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -298,7 +298,7 @@ des quelques dernières années<y:LabelModel>
           <y:Geometry height="75.0" width="331.7312266112267" x="2383.061524601535" y="138.00256528064483"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="243.958984375" x="43.88612111811335" y="21.53125">Briefing avec son contact : 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.18359375" x="32.77381643061335" y="21.53125">Veille du jardin: Briefing avec son contact : 
 Portail - monstres qui mangent les gens
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -317,7 +317,7 @@ Portail - monstres qui mangent les gens
           <y:Geometry height="75.0" width="331.7312266112267" x="2383.061524601535" y="213.00256528064483"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="271.427734375" x="30.15174611811335" y="21.53125">Traveaux de préparation avec sa femme sur
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="313.462890625" x="9.134167993113351" y="21.53125">jardin: Traveaux de préparation avec sa femme sur
 la destruction de portail<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -332,7 +332,7 @@ la destruction de portail<y:LabelModel>
     <node id="n18">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="437.3341884268816"/>
+          <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="323.33675370752644"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="284.5703125" x="23.58045705561335" y="21.53125">Un autre contact lui donne le timeing precis 
@@ -353,7 +353,7 @@ de l'ouverture du portail (heure de l'explosion)<y:LabelModel>
           <y:Geometry height="75.0" width="331.7312266112267" x="2383.061524601535" y="288.00256528064483"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="282.484375" x="24.62342580561335" y="21.53125">Dis au soldat de regler la bombe sur la bonne 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="313.181640625" x="9.274792993113351" y="21.53125">pub: Dis au soldat de regler la bombe sur la bonne 
 heure (en regardant ça montre)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -388,7 +388,7 @@ heure (en regardant ça montre)<y:LabelModel>
           <y:Geometry height="75.0" width="331.7312266112267" x="2792.061524601535" y="143.33675370752644"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="242.412109375" x="44.65955861811335" y="28.515625">Mission renseignement avec journaliste<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="270.537109375" x="30.59705861811335" y="28.515625">Entretien de recrutement avec la journaliste<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -458,7 +458,7 @@ du rituel<y:LabelModel>
           <y:Geometry height="75.0" width="331.7312266112267" x="2792.061524601535" y="443.33675370752644"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="243.35546875" x="44.18787893061335" y="28.515625">Démo télékinésiste + payer son service<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="253.849609375" x="38.94080861811335" y="28.515625">pub2 : (à la télé) payer son service (50%)<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -470,23 +470,6 @@ du rituel<y:LabelModel>
       </data>
     </node>
     <node id="n26">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="75.0" width="331.7312266112267" x="3123.7927512127617" y="443.33675370752644"/>
-          <y:Fill color="#33CCCC" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="207.349609375" x="62.19080861811335" y="28.515625">il se rapelle de 2 formules simple <y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n27">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="68.33675370752644"/>
@@ -505,29 +488,10 @@ Portail - monstres qui mangent les gens
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n27">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="287.3341884268816"/>
-          <y:Fill color="#33CCCC" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.11328125" x="134.80897268061335" y="21.53125">Briefing 2
-
-<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n29">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="75.0" width="331.7312266112267" x="2383.061524601535" y="362.3341884268816"/>
+          <y:Geometry height="75.0" width="331.7312266112267" x="1974.061524601535" y="248.33675370752644"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="342.00390625" x="-5.136339819386649" y="21.53125">Je sais que les status sont des monstres qui viennent
@@ -542,8 +506,7 @@ d'un autre et qu'elles peuvent avoir l'aparence humaine<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n30">
-      <data key="d5"/>
+    <node id="n28">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="115.0" width="331.7312266112267" x="2727.8729166666635" y="-213.00599999999986"/>
@@ -674,7 +637,6 @@ Entrepreneur - leadership - intrépide<y:LabelModel>
       </data>
     </edge>
     <edge id="e11" source="n6" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -685,7 +647,6 @@ Entrepreneur - leadership - intrépide<y:LabelModel>
       </data>
     </edge>
     <edge id="e12" source="n7" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -696,7 +657,6 @@ Entrepreneur - leadership - intrépide<y:LabelModel>
       </data>
     </edge>
     <edge id="e13" source="n0" target="n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -707,7 +667,6 @@ Entrepreneur - leadership - intrépide<y:LabelModel>
       </data>
     </edge>
     <edge id="e14" source="n0" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
