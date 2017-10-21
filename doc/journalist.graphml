@@ -110,7 +110,7 @@
           <y:Geometry height="75.0" width="300.0" x="513.8890930346838" y="204.54506101177935"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="147.654296875" x="76.1728515625" y="28.515624999999943">J'ai fourni les invitations<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="147.654296875" x="76.1728515625" y="28.515625">J'ai fourni les invitations<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -181,7 +181,7 @@ chateau pour qu'il ne soit pas reconnaissable
           <y:Geometry height="75.0" width="300.0" x="513.8890930346838" y="504.5450610117793"/>
           <y:Fill color="#33CCCC" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.8359375" x="5.58203125" y="14.546875">Mon role dans l'opération est d'être capable 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.8359375" x="5.58203125" y="14.546875000000057">Mon role dans l'opération est d'être capable 
 de faire rentrer le plan malgré les controles de 
 sécurité et de le réstituer sur place<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -233,7 +233,6 @@ qui a été volé<y:LabelModel>
       </data>
     </node>
     <node id="n12">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="115.0" width="331.7312266112267" x="927.991666666654" y="-14.208818738744867"/>
