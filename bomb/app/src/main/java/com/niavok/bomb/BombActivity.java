@@ -8,10 +8,13 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -36,7 +39,7 @@ public class BombActivity extends AppCompatActivity {
      */
     private static final int UI_ANIMATION_DELAY = 300;
     private final Handler mHideHandler = new Handler();
-    private View mContentView;
+    private TextView mContentView;
     private final Runnable mHidePart2Runnable = new Runnable() {
         @SuppressLint("InlinedApi")
         @Override
@@ -92,6 +95,10 @@ public class BombActivity extends AppCompatActivity {
 
     private Bomb mBomb;
     private ImageButton[] mButtons = new ImageButton[16];
+    private Button mResetButton0;
+    private Button mResetButton1;
+    private int mMinorReset;
+    private int mMajorReset;
 
 
     @Override
@@ -102,9 +109,45 @@ public class BombActivity extends AppCompatActivity {
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
-        mContentView = findViewById(R.id.fullscreen_content);
+        mContentView = (TextView) findViewById(R.id.fullscreen_content);
         mImageBlink = (ImageView) findViewById(R.id.blink);
+        mResetButton0 = (Button) findViewById(R.id.reset_button0);
+        mResetButton1 = (Button) findViewById(R.id.reset_button1);
 
+
+        mResetButton0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(mMinorReset == 3)
+                {
+                    mMajorReset++;
+
+                    Log.d("RESET", "Major reset : " + mMajorReset);
+                }
+                else
+                {
+                    mMajorReset = 0;
+                }
+
+                mMinorReset = 0;
+
+                if(mMajorReset == 3)
+                {
+                    mBomb.Reset();
+                    mMajorReset = 0;
+                    mMinorReset = 0;
+                    updateButtons();
+                }
+            }
+        });
+
+        mResetButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mMinorReset++;
+                Log.d("RESET", "Minor reset: " + mMinorReset);
+            }
+        });
 
         loadButton(0, R.id.toggleButton0);
         loadButton(1, R.id.toggleButton1);
@@ -139,7 +182,8 @@ public class BombActivity extends AppCompatActivity {
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
-        mBomb = new Bomb();
+        mBomb = new Bomb(this);
+        mBomb.Restore(savedInstanceState);
 
         mBlinker = new Handler();
         mBlinker.post(mBlinkOn);
@@ -191,8 +235,19 @@ public class BombActivity extends AppCompatActivity {
         @Override
         public void run() {
             try {
+
+
                 if(mBomb.IsActive()) {
                     mImageBlink.setVisibility(View.VISIBLE);
+                }
+
+                if(mBomb.IsExplosed())
+                {
+                    mContentView.setText("BOOM !");
+                }
+                else
+                {
+                    mContentView.setText("");
                 }
             } finally {
                 // 100% guarantee that this always happens, even if
@@ -210,7 +265,13 @@ public class BombActivity extends AppCompatActivity {
             } finally {
                 // 100% guarantee that this always happens, even if
                 // your update method throws an exception
-                mBlinker.postDelayed(mBlinkOn, 1000);
+                if(mBomb.IsNearExplosion()) {
+                    mBlinker.postDelayed(mBlinkOn, 100);
+                }
+                else
+                {
+                    mBlinker.postDelayed(mBlinkOn, 1000);
+                }
                 delayedHide(0);
             }
         }
@@ -270,5 +331,15 @@ public class BombActivity extends AppCompatActivity {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+
+        mBomb.Save(savedInstanceState);
+
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
 }
 

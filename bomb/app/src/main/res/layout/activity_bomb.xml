@@ -5,9 +5,6 @@
     android:background="@drawable/bomb_background"
     tools:context="com.niavok.bomb.BombActivity">
 
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
@@ -15,9 +12,31 @@
         android:gravity="center"
         android:keepScreenOn="true"
         android:text=""
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
+        android:textColor="#ffb700"
+        android:textSize="160sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reset_button0"
+        style="?metaButtonBarButtonStyle"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:background="#00555500"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0px"
+         />
+
+    <Button
+        android:id="@+id/reset_button1"
+        style="?metaButtonBarButtonStyle"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:background="#00555500"
+        android:layout_marginLeft="1960px"
+        android:layout_marginTop="0px"
+        android:text="" />
+
+
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -209,103 +228,9 @@
         android:background="@drawable/bomb_on"
         />
 
-        <!--<ToggleButton
-            android:id="@+id/toggleButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
+    <!-- The primary full-screen view. This can be replaced with whatever view
+      is needed to present your content, e.g. VideoView, SurfaceView,
+      TextureView, etc. -->
 
-        <ToggleButton
-            android:id="@+id/toggleButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
-        <ToggleButton
-            android:id="@+id/toggleButton15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />-->
- <!--   </FrameLayout>-->
 
 </FrameLayout>
