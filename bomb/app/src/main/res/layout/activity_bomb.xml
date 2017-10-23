@@ -1,0 +1,218 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.niavok.bomb.BombActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text=""
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_button" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bomb_background"
+        android:orientation="horizontal">
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:background="@drawable/bomb_background"/>
+-->
+
+        <ImageView
+            android:id="@+id/blink"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_marginLeft="160px"
+            android:layout_marginTop="530px"
+            android:background="@drawable/bomb_blink"/>
+
+
+        <ImageButton
+            android:id="@+id/toggleButton0"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="967px"
+            android:layout_width="160px"
+            android:layout_height="473px"
+            android:background="@drawable/bomb_on"
+             />
+
+        <ImageButton
+            android:id="@+id/toggleButton1"
+            android:layout_marginLeft="240px"
+            android:layout_marginTop="967px"
+            android:layout_width="160px"
+            android:layout_height="473px"
+            android:background="@drawable/bomb_on"
+            />
+
+        <ImageButton
+            android:id="@+id/toggleButton2"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="967px"
+            android:layout_width="160px"
+            android:layout_height="473px"
+            android:background="@drawable/bomb_on"
+            />
+
+        <ImageButton
+            android:id="@+id/toggleButton3"
+            android:layout_marginLeft="560px"
+            android:layout_marginTop="967px"
+            android:layout_width="160px"
+            android:layout_height="473px"
+            android:background="@drawable/bomb_on"
+            />
+
+        <ImageButton
+            android:id="@+id/toggleButton15"
+            android:layout_marginLeft="2200px"
+            android:layout_marginTop="967px"
+            android:layout_width="160px"
+            android:layout_height="473px"
+            android:background="@drawable/bomb_on"
+            />
+
+        <!--<ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+        <ToggleButton
+            android:id="@+id/toggleButton15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />-->
+    </FrameLayout>
+
+</FrameLayout>
