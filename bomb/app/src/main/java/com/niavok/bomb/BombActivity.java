@@ -1,6 +1,7 @@
 package com.niavok.bomb;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.annotation.IdRes;
 import android.support.v7.app.ActionBar;
@@ -108,6 +109,19 @@ public class BombActivity extends AppCompatActivity {
         loadButton(0, R.id.toggleButton0);
         loadButton(1, R.id.toggleButton1);
         loadButton(2, R.id.toggleButton2);
+        loadButton(3, R.id.toggleButton3);
+        loadButton(4, R.id.toggleButton4);
+        loadButton(5, R.id.toggleButton5);
+        loadButton(6, R.id.toggleButton6);
+        loadButton(7, R.id.toggleButton7);
+        loadButton(8, R.id.toggleButton8);
+        loadButton(9, R.id.toggleButton9);
+        loadButton(10, R.id.toggleButton10);
+        loadButton(11, R.id.toggleButton11);
+        loadButton(12, R.id.toggleButton12);
+        loadButton(13, R.id.toggleButton13);
+        loadButton(14, R.id.toggleButton14);
+        loadButton(15, R.id.toggleButton15);
 
         // Set up the user interaction to manually show or hide the system UI.
         mContentView.setOnClickListener(new View.OnClickListener() {
@@ -130,6 +144,8 @@ public class BombActivity extends AppCompatActivity {
         mBlinker = new Handler();
         mBlinker.post(mBlinkOn);
 
+        updateButtons();
+
     }
 
     private void loadButton(final int index, @IdRes int id)
@@ -140,6 +156,8 @@ public class BombActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mBomb.SwitchCable(index);
                 updateButtons();
+
+                //startActivity(new Intent(BombActivity.this, FullscreenActivity.class));
             }
         });
     }
@@ -153,6 +171,7 @@ public class BombActivity extends AppCompatActivity {
             {
                 continue;
             }
+
 
             if(mBomb.IsCablePluged(i)) {
                 mButtons[i].setBackground(getResources().getDrawable(R.drawable.bomb_on));
@@ -192,6 +211,7 @@ public class BombActivity extends AppCompatActivity {
                 // 100% guarantee that this always happens, even if
                 // your update method throws an exception
                 mBlinker.postDelayed(mBlinkOn, 1000);
+                delayedHide(0);
             }
         }
     };
@@ -205,7 +225,7 @@ public class BombActivity extends AppCompatActivity {
         // Trigger the initial hide() shortly after the activity has been
         // created, to briefly hint to the user that UI controls
         // are available.
-        delayedHide(100);
+        delayedHide(0);
     }
 
     private void toggle() {
