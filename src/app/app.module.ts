@@ -10,6 +10,7 @@ import { MemoryComponent } from './memories.component';
 import { MenuComponent } from './menu.component';
 import { PeopleComponent } from './people.component';
 import { AdminComponent } from './admin.component';
+import { TeleComponent } from './tele.component';
 
 import { ReplacePipe } from './replace.pipe';
 
@@ -28,6 +29,7 @@ import { MemoryService } from './memory.service';
     MenuComponent,
     PeopleComponent,
     AdminComponent,
+    TeleComponent,
     ReplacePipe,
   ],
   imports: [
@@ -51,6 +53,9 @@ import { MemoryService } from './memory.service';
     }, {
       path: 'admin',
       component: AdminComponent
+    }, {
+      path: 'tele',
+      component: TeleComponent
     }], {useHash: true}),
   ],
   providers: [

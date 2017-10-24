@@ -1,0 +1,45 @@
+<div class="memory main">
+  <div class="header">
+    <app-menu></app-menu>
+    <h1 class="center">Télékinesie</h1>
+  </div>
+
+  <div [ngSwitch]="testResult">
+
+    <section *ngSwitchCase="'empty'">
+      <p>
+        L'incantation est vide, il ne se passe rien.
+      </p>
+      <button type="button" (click)="ok()">Ok !</button>
+    </section>
+    <section *ngSwitchCase="'tooshort'">
+      <p>
+        Rien ne se passe, cette incantation semble un peu courte ...
+      </p>
+      <button type="button" (click)="ok()">Ok !</button>
+    </section>
+
+    <section *ngSwitchCase="'wrong'">
+      <p>
+        Rien ne se passe, cette incantation n'a pas l'air correcte ...
+      </p>
+      <button type="button" (click)="ok()">Ok !</button>
+    </section>
+
+    <section *ngSwitchDefault>
+      <textarea [ngModel]="incantation" disable></textarea>
+      <div>
+        <button class="incantation-bt" type="button" (click)="add('gadoola')">Gadoola</button>
+        <button class="incantation-bt" type="button" (click)="add('boo')">Boo</button>
+        <button class="incantation-bt" type="button" (click)="add('bobidi')">Bobidi</button>
+        <button class="incantation-bt" type="button" (click)="add('bibidi')">Bibidi</button>
+        <button class="incantation-bt" type="button" (click)="add('la')">La</button>
+        <button class="incantation-bt" type="button" (click)="add('sala')">Sala</button>
+      </div>
+
+      <button type="button" (click)="tester()">Tester</button>
+      <div>&nbsp;</div>
+      <button type="button" (click)="clear()">Clear</button>
+    </section>
+  </div>
+</div>
