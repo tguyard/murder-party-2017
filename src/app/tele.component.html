@@ -26,6 +26,21 @@
       <button type="button" (click)="ok()">Ok !</button>
     </section>
 
+    <section *ngSwitchCase="'wall'">
+      <p>
+        L'incantation à l'air de fonctionner, mais rien ne semble se téléporter.
+        Peut être qu'il y a un obstacle sur le chemin...
+      </p>
+      <button type="button" (click)="ok()">Ok !</button>
+    </section>
+
+    <section *ngSwitchCase="'position'">
+      <p>
+        POSITION: {{ position | json}}
+      </p>
+      <button type="button" (click)="ok()">Ok !</button>
+    </section>
+
     <section *ngSwitchDefault>
       <textarea [ngModel]="incantation" disable></textarea>
       <div>
