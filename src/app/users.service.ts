@@ -5,7 +5,7 @@ export class User {
     public name: string,
     public id: string,
     public avatar: string,
-  ){}
+  ) {}
 }
 
 
@@ -14,13 +14,12 @@ export class UserService {
   public testUser = new User('John Doe', 'WMbmn', 'avatar-test');
 
   public chef = new User('Superintendant Battle', 'wduSg', 'avatar-chef');
-  public artificier = new User('Parker Pyne', 'oYwfm', 'avatar-artificier');
-  public telekinesiste = new User('Jane Doe', 'pVObb', 'avatar-telekinesiste');
-  public voyant = new User('Ariadne Oliver', 'wvJZn', 'avatar-voyant');
-  public voleur = new User('Jane Marple', 'lQadB', 'avatar-voleur');
+  public soldat = new User('Parker Pyne', 'oYwfm', 'avatar-soldat');
   public erudit = new User('Arthur Hastings', 'PJyKU', 'avatar-erudit');
+  public tele = new User('Jane Doe', 'pVObb', 'avatar-tele');
+  public voyant = new User('Ariadne Oliver', 'wvJZn', 'avatar-voyant');
+  public journalist = new User('Eustace Pedler', 'Dotrh', 'avatar-journalist');
   public monstre = new User('Colonel Race', 'fkBqe', 'avatar-monstre');
-  public notable = new User('Eustace Pedler', 'Dotrh', 'avatar-notable');
 
   public getCurrentUser() {
     const id = localStorage.getItem('userId') || '';
@@ -28,14 +27,14 @@ export class UserService {
     const user = [
       this.testUser,
       this.chef,
-      this.artificier,
-      this.telekinesiste,
+      this.soldat,
+      this.tele,
       this.voyant,
-      this.voleur,
       this.erudit,
       this.monstre,
-      this.notable,
+      this.journalist,
     ].find(u => u.id === id);
+    console.log(user);
     if (user == null) {
       throw new Error('User should not be null !');
     }

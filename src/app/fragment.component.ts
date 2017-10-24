@@ -1,6 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import 'rxjs/add/operator/map'; 
+import 'rxjs/add/operator/map';
 
 import { FragmentService, Fragment } from './fragment.service';
 

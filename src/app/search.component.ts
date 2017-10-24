@@ -12,35 +12,35 @@ import { MemoryService } from './memory.service';
 })
 export class SearchComponent {
 
-  public fragment: Fragment|null = null;
+  public fragments: Fragment[] = [];
+  public hasTxt = false;
 
   constructor(
     private searchService: SearchService,
     private router: Router,
-    private memoryService: MemoryService,
-  ){
+    public memoryService: MemoryService,
+  ) {
   }
 
   public onChange(text: string) {
+    this.hasTxt = text.length > 0;
     const words = text.toLowerCase()
                       .replace(/[\n\r]+/gm, '|')
                       .split('|')
                       .filter(w => w.length > 0)
                       .map(w => w.trim())
                       .sort();
-    if (words.length === 3) {
-      this.fragment = this.searchService.find(words);
-      if (this.fragment != null) {
-        this.memoryService.save(this.fragment);
+    this.fragments = this.searchService.findAll(words);
+    if (this.fragments.length > 0) {
+      for (let i = 0; i < this.fragments.length; ++i) {
+        this.memoryService.save(this.fragments[i]);
       }
-    } else {
-      this.fragment = null;
     }
   }
 
-  public gotoFragment() {
-    if (this.fragment != null) {
-      this.router.navigate(['fragment', this.fragment.id]);
+  public gotoFragment(f: Fragment) {
+    if (f != null) {
+      this.router.navigate(['fragment', f.id]);
     }
   }
 }

@@ -10,7 +10,7 @@ import 'rxjs/add/operator/filter';
  `
 })
 export class AppComponent {
-  constructor(route: ActivatedRoute){
+  constructor(route: ActivatedRoute) {
     route.queryParamMap
          .filter(m => m.has('userId'))
          .map(m => m.get('userId'))

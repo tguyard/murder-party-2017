@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
       <li class="align-right"><a (click)="isOpen = false">Fermer</a></li>
       <li><a href="#/memory">Ma mémoire</a></li>
       <li><a href="#/search">Se creuser la tête</a></li>
+      <li><a href="#/people">Qui est qui ?</a></li>
     </ul>
   </nav>
   `,

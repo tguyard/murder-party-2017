@@ -8,6 +8,9 @@ import { SearchComponent } from './search.component';
 import { FragmentComponent } from './fragment.component';
 import { MemoryComponent } from './memories.component';
 import { MenuComponent } from './menu.component';
+import { PeopleComponent } from './people.component';
+
+import { ReplacePipe } from './replace.pipe';
 
 import { SearchService } from './search.service';
 import { FragmentService } from './fragment.service';
@@ -22,6 +25,8 @@ import { MemoryService } from './memory.service';
     SearchComponent,
     FragmentComponent,
     MenuComponent,
+    PeopleComponent,
+    ReplacePipe,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +43,9 @@ import { MemoryService } from './memory.service';
     }, {
       path: 'fragment/:id',
       component: FragmentComponent
+    }, {
+      path: 'people',
+      component: PeopleComponent
     }], {useHash: true}),
   ],
   providers: [

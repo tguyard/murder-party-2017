@@ -6,14 +6,17 @@
 
 
   <section>
-    <p class="description">Trouve 3 dates/objets/personnes... issus
+    <p class="description">Rentre un mot issus
       de ton passé, peut-être qu'un souvenir te reviendras</p>
     <textarea [ngModel]="words" (ngModelChange)="onChange($event)"></textarea>
-    <div class="description" *ngIf="fragment == null && words != null && words !== ''">Continue à chercher</div>
-    <button type="button" (click)="gotoFragment()" *ngIf="fragment != null">Oh un souvenir !</button>
+    <div class="description" *ngIf="fragments.length === 0 && hasTxt">Continue à chercher</div>
+    <div *ngFor="let fragment of fragments">
+      <button  type="button" (click)="fragment.isOpened = !fragment.isOpened">{{fragment.title}}</button>
+      <div class="mem-body" [innerHTML]="fragment.details | replace:memoryService.people" *ngIf="fragment.isOpened"></div>
+    </div>
 
     <div class="bottom">
-      <a class="bottom button memory-bg" href="#/memory"> Ma mémoire </a>
+      <a class="bottom button memory-bg" href="#/memory">Ma mémoire </a>
     </div>
   </section>
 </div>

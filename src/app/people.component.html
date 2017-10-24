@@ -1,0 +1,19 @@
+<div class="memory main">
+  <div class="header">
+    <app-menu></app-menu>
+    <h1 class="center">Qui est qui ?</h1>
+  </div>
+
+  <section>
+    <article >
+      <div *ngFor="let p of defaultPeople">
+        {{ p.value }}: <input type="text" [(ngModel)]="memoryService.people[p.name]"/>
+      </div>
+    </article>
+
+    <div class="bottom">
+      <a class="button search-bg" href="#/search">Chercher un souvenir</a>
+    </div>
+
+  </section>
+</div>

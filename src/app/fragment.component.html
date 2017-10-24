@@ -5,7 +5,10 @@
   </div>
 
   <section>
-    <article class="mem" [innerHTML]="fragment.memory"></article>
+    <article class="mem">
+      <div class="mem-title" [innerHTML]="fragment.title"></div>
+      <div class="mem-body" [innerHTML]="fragment.details"></div>
+    </article>
 
     <a class="button memory-bg" href="#/memory">Ma mémoire</a>
   </section>
