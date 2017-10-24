@@ -11,21 +11,18 @@ export class User {
 
 @Injectable()
 export class UserService {
-  public testUser = new User('John Doe', 'WMbmn', 'avatar-test');
-
-  public chef = new User('Superintendant Battle', 'wduSg', 'avatar-chef');
-  public soldat = new User('Parker Pyne', 'oYwfm', 'avatar-soldat');
-  public erudit = new User('Arthur Hastings', 'PJyKU', 'avatar-erudit');
-  public tele = new User('Jane Doe', 'pVObb', 'avatar-tele');
-  public voyant = new User('Ariadne Oliver', 'wvJZn', 'avatar-voyant');
-  public journalist = new User('Eustace Pedler', 'Dotrh', 'avatar-journalist');
-  public monstre = new User('Colonel Race', 'fkBqe', 'avatar-monstre');
+  public chef = new User('Chef', 'wduSg', 'avatar-chef');
+  public soldat = new User('soldat', 'oYwfm', 'avatar-soldat');
+  public erudit = new User('erudit', 'PJyKU', 'avatar-erudit');
+  public tele = new User('tele', 'pVObb', 'avatar-tele');
+  public voyant = new User('voyant', 'wvJZn', 'avatar-voyant');
+  public journalist = new User('journalist', 'Dotrh', 'avatar-journalist');
+  public monstre = new User('monstre', 'fkBqe', 'avatar-monstre');
 
   public getCurrentUser() {
     const id = localStorage.getItem('userId') || '';
 
     const user = [
-      this.testUser,
       this.chef,
       this.soldat,
       this.tele,
@@ -34,7 +31,6 @@ export class UserService {
       this.monstre,
       this.journalist,
     ].find(u => u.id === id);
-    console.log(user);
     if (user == null) {
       throw new Error('User should not be null !');
     }

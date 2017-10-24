@@ -27,8 +27,9 @@ export class MemoryService {
   }
 
   public save(fragment: Fragment) {
-    if (this.saved.find(f => fragment.id === f.id) == null) {
+    if (this.saved.find(f => f != null && fragment.id === f.id) == null) {
       this.saved.push(fragment);
+      this.saved.sort((a, b) => a.order - b.order);
       localStorage.setItem('fragments', JSON.stringify(this.saved.map(f => f.id)));
     }
   }

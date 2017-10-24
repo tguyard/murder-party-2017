@@ -33,6 +33,7 @@ export class SearchComponent {
     this.fragments = this.searchService.findAll(words);
     if (this.fragments.length > 0) {
       for (let i = 0; i < this.fragments.length; ++i) {
+        console.log("save", this.fragments[i].title);
         this.memoryService.save(this.fragments[i]);
       }
     }

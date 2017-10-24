@@ -5,6 +5,10 @@
   </div>
 
   <section>
+    <article class="mem" *ngIf="memoryService.saved.length === 0">
+      J'ai perdu la mémoire ! Ce doit être une amnésie temporaire.
+      Peut être qu'en cherchant bien, je vais réussir à retrouver la mémoire.
+    </article>
     <article class="mem" *ngFor="let fragment of memoryService.saved"
     (click)="fragment.isOpened = !fragment.isOpened">
       <div class="mem-title" [innerHTML]="fragment.title"></div>
@@ -13,7 +17,6 @@
 
     <div class="bottom">
       <a class="button search-bg" href="#/search">Chercher un souvenir</a>
-      <button type="button" (click)="memoryService.clear()">CLEAR</button>
     </div>
 
   </section>

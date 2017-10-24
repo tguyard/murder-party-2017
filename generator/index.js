@@ -157,9 +157,8 @@ for (const j in memories) {
     data = data.replace(new RegExp('\\b((CONTREMAITRE)|(SOLDAT)|(AGENT)|(ERUDIT)|(JOURNALISTE)|(TELE)|(MONSTRE)|(VOYANTE)|(ESCLAVE)|(CHEF)|(FLIC)|(SUPERIEUR))\\b', 'g'), '<strong class="people">$1</strong>');
     const fragment = `this.fragments.push(new Fragment(userService.${mem.perso},
       ${motClef},
-      [],
       \`${mem.name}\`,
-      \`${data}\`));`;
+      \`${data}\`, ${i}));`;
 
     console.log(fragment);
   }

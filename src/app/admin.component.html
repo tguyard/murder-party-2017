@@ -1,0 +1,21 @@
+<div class="memory main">
+  <div class="header">
+    <app-menu></app-menu>
+    <h1 class="center">Admin</h1>
+  </div>
+
+  <section>
+    <article >
+      <div *ngFor="let user of users">
+        <div><strong>{{ user.user.name }}</strong></div>
+        <div><a href="{{origin}}#/?userId={{user.user.id}}"><pre>{{origin}}#/?userId={{user.user.id}}</pre></a></div>
+        <pre>{{ user.mots | json}}</pre>
+      </div>
+    </article>
+
+    <div class="bottom">
+      <button type="button" (click)="memoryService.clear()">CLEAR</button>
+    </div>
+
+  </section>
+</div>

@@ -9,6 +9,7 @@ import { FragmentComponent } from './fragment.component';
 import { MemoryComponent } from './memories.component';
 import { MenuComponent } from './menu.component';
 import { PeopleComponent } from './people.component';
+import { AdminComponent } from './admin.component';
 
 import { ReplacePipe } from './replace.pipe';
 
@@ -26,6 +27,7 @@ import { MemoryService } from './memory.service';
     FragmentComponent,
     MenuComponent,
     PeopleComponent,
+    AdminComponent,
     ReplacePipe,
   ],
   imports: [
@@ -46,6 +48,9 @@ import { MemoryService } from './memory.service';
     }, {
       path: 'people',
       component: PeopleComponent
+    }, {
+      path: 'admin',
+      component: AdminComponent
     }], {useHash: true}),
   ],
   providers: [
