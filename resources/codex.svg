@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="codex.svg"
+   inkscape:export-filename="/home/fred/workspace/murder-party-2017/resources/livre-pouvoir.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   enable-background="new">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter874">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend876" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="678.70365"
+     inkscape:cy="590.55632"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1145"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Calque 2"
+     style="display:none">
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path943"
+       d="M 184.10594,106.32075 32.44807,202.75809 98.170913,83.362204 178.65188,190.16554 26.557508,100.2295 Z"
+       style="filter:url(#filter874);display:inline;fill:none;stroke:#000000;stroke-width:0.13611326px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="filter:url(#filter874)">
+    <text
+       id="text827"
+       y="-27.877258"
+       x="136.58171"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.26458332"
+         y="-27.877258"
+         x="136.58171"
+         id="tspan825"
+         sodipodi:role="line">ABKNPUYego</tspan></text>
+    <text
+       id="text882"
+       y="13.126827"
+       x="105.18535"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.84796143px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.42119899"
+       xml:space="preserve"><tspan
+         id="tspan880"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.86238194px;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';text-align:center;text-anchor:middle;stroke-width:0.42119899"
+         y="13.126827"
+         x="107.15094"
+         sodipodi:role="line">Codex </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.86238194px;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';text-align:center;text-anchor:middle;stroke-width:0.42119899"
+         y="34.186779"
+         x="105.18535"
+         sodipodi:role="line"
+         id="tspan1186">de</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.86238194px;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';text-align:center;text-anchor:middle;stroke-width:0.42119899"
+         y="55.246731"
+         x="105.18535"
+         sodipodi:role="line"
+         id="tspan1184">Mecanique planaire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="176.1306"
+       y="59.931927"
+       id="text888"><tspan
+         sodipodi:role="line"
+         x="176.1306"
+         y="69.729942"
+         style="stroke-width:0.26458332"
+         id="tspan890" /></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="136.58171"
+       y="-17.453747"
+       id="text1163"><tspan
+         sodipodi:role="line"
+         id="tspan1161"
+         x="136.58171"
+         y="-17.453747"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.26458332">ABKNPUYego</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1188"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Agathodaimon;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Agathodaimon;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion1190"><rect
+           id="rect1192"
+           width="962.85712"
+           height="335.71429"
+           x="-44.285713"
+           y="39.662552" /></flowRegion><flowPara
+         id="flowPara1194"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.10799217px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25269979"
+       x="68.628433"
+       y="104.27116"
+       id="text926"><tspan
+         sodipodi:role="line"
+         x="68.628433"
+         y="104.27116"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71706295px;line-height:3.5;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';stroke-width:0.25269979"
+         id="tspan1222">Ce codex de mécanique</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.38165665px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35954136"
+       x="29.213749"
+       y="207.14423"
+       id="text1119"><tspan
+         sodipodi:role="line"
+         id="tspan1117"
+         x="29.213749"
+         y="207.14423"
+         style="stroke-width:0.35954136">Y</tspan></text>
+    <text
+       id="text1240"
+       y="129.07071"
+       x="61.370033"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.10799217px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25269979"
+       xml:space="preserve"><tspan
+         id="tspan1238"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71706295px;line-height:3.5;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';stroke-width:0.25269979"
+         y="129.07071"
+         x="61.370033"
+         sodipodi:role="line">planaire explique les rudiments</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.10799217px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25269979"
+       x="81.728813"
+       y="137.11157"
+       id="text1275"><tspan
+         sodipodi:role="line"
+         x="81.728813"
+         y="137.11157"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71706295px;line-height:3.5;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';stroke-width:0.25269979"
+         id="tspan1273">de la création de portail</tspan></text>
+    <text
+       id="text1297"
+       y="152.33791"
+       x="81.215569"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.10799217px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25269979"
+       xml:space="preserve"><tspan
+         id="tspan1295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71706295px;line-height:3.5;font-family:'Celtic Garamond the 2nd';-inkscape-font-specification:'Celtic Garamond the 2nd';stroke-width:0.25269979"
+         y="152.33791"
+         x="81.215569"
+         sodipodi:role="line">entre les plans.</tspan></text>
+    <text
+       id="text1301"
+       y="195.44775"
+       x="172.67101"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.38165665px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35954136"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.35954136"
+         y="195.44775"
+         x="172.67101"
+         id="tspan1299"
+         sodipodi:role="line">o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.38165665px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35954136"
+       x="176.54214"
+       y="112.70195"
+       id="text1305"><tspan
+         sodipodi:role="line"
+         id="tspan1303"
+         x="176.54214"
+         y="112.70195"
+         style="stroke-width:0.35954136">P</tspan></text>
+    <text
+       id="text1309"
+       y="89.717003"
+       x="93.312447"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.38165665px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35954136"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.35954136"
+         y="89.717003"
+         x="93.312447"
+         id="tspan1307"
+         sodipodi:role="line">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.38165665px;line-height:1.25;font-family:Agathodaimon;-inkscape-font-specification:Agathodaimon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35954136"
+       x="21.938147"
+       y="105.92744"
+       id="text1313"><tspan
+         sodipodi:role="line"
+         id="tspan1311"
+         x="21.938147"
+         y="105.92744"
+         style="stroke-width:0.35954136">N</tspan></text>
+  </g>
+</svg>
