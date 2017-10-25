@@ -36,6 +36,6 @@ export class MemoryService {
 
   public clear() {
     this.saved = [];
-    localStorage.removeItemsetItem('fragments');
+    localStorage.removeItem('fragments');
   }
 }
