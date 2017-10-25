@@ -135,9 +135,10 @@ export class TeleComponent {
     }
     let orientation = 160 + this.orientation;
     let vitesse = 0;
-    let position: [number, number] = this.origin;
+    let position: [number, number] = this.origin.slice() as any;
+    this.currentParcour = this.emptyLevel.slice();
     this.currentLevelIndex = 0;
-    this.currentParcour = this.emptyLevel;
+    console.log(position, orientation, this.currentParcour);
     for (let i = 1; i < this.mots.length - 1; ++i) {
       switch (this.mots[i]) {
         case 'gadoola':
@@ -163,6 +164,7 @@ export class TeleComponent {
           position = this.move(position, orientation, vitesse);
         } catch (e) {
           this.testResult = 'wall';
+          console.log(e);
           return;
         }
 

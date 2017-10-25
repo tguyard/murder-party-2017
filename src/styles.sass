@@ -19,10 +19,13 @@ body
   font-weight: bold
 
 body
-  margin: 0
+  margin: auto
+  max-width: 768px
+  background-color: black
 
 .main
   display: flex
+  max-width: 100%
   flex-direction: column
   height: 100vh
   width: 100vw
@@ -130,3 +133,16 @@ button, .button
     border: 1px solid #e0e0e0
     background-color: $green-700
     color: white
+
+.qui-line
+  font-size: 2rem
+  vertical-align: middle
+  margin: 3px 0
+  display: flex
+  flex-direction: row
+  input
+    padding: 5px
+    vertical-align: middle
+    flex: 1
+  > div
+    width: 3.5rem
