@@ -36,19 +36,39 @@
 
     <section *ngSwitchCase="'position'">
       <p>
-        POSITION: {{ position | json}}
+        Je sens quelque chose bouger ! J'arrive même à visualiser un chemin.
+      </p>
+      <div>
+        <pre class="parcour">{{parcour}}</pre>
+      </div>
+      <p *ngIf="currentLevelIndex === 1">
+        Je pense être arrivé au premier étage.
+      </p>
+      <p *ngIf="currentLevelIndex > 1">
+        Je pense être arrivé au sous-sol.
       </p>
       <button type="button" (click)="ok()">Ok !</button>
     </section>
 
     <section *ngSwitchDefault>
-      <textarea [ngModel]="incantation" disable></textarea>
-      <div>
-        <button class="incantation-bt" type="button" (click)="add('gadoola')">Gadoola</button>
-        <button class="incantation-bt" type="button" (click)="add('boo')">Boo</button>
+      <div style="margin-bottom: 12px;">
+        <div>
+          <i>Je regarde vers le :</i>
+        </div>
+        <button class="orientation-btn" [ngClass]="{enabled: orientation === 0}" type="button" (click)="orientation = 0">Nord</button>
+        <button class="orientation-btn" [ngClass]="{enabled: orientation === 2}" type="button" (click)="orientation = 2">Sud</button>
+        <button class="orientation-btn" [ngClass]="{enabled: orientation === 3}" type="button" (click)="orientation = 3">Est</button>
+        <button class="orientation-btn" [ngClass]="{enabled: orientation === 1}" type="button" (click)="orientation = 1">Ouest</button>
+      </div>
+
+      <i>Testez votre incantation :</i>
+      <div class="incantation">{{incantation}}</div>
+      <div style="margin: 10px -10px;">
         <button class="incantation-bt" type="button" (click)="add('bobidi')">Bobidi</button>
-        <button class="incantation-bt" type="button" (click)="add('bibidi')">Bibidi</button>
         <button class="incantation-bt" type="button" (click)="add('la')">La</button>
+        <button class="incantation-bt" type="button" (click)="add('boo')">Boo</button>
+        <button class="incantation-bt" type="button" (click)="add('bibidi')">Bibidi</button>
+        <button class="incantation-bt" type="button" (click)="add('gadoola')">Gadoola</button>
         <button class="incantation-bt" type="button" (click)="add('sala')">Sala</button>
       </div>
 
