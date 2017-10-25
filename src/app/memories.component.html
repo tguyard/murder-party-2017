@@ -11,8 +11,10 @@
     </article>
     <article class="mem" *ngFor="let fragment of memoryService.saved"
     (click)="fragment.isOpened = !fragment.isOpened">
-      <div class="mem-title" [innerHTML]="fragment.title"></div>
-      <div class="mem-body" [innerHTML]="fragment.details | replace:memoryService.people" *ngIf="fragment.isOpened"></div>
+      <div *ngIf="fragment != null">
+        <div class="mem-title" [innerHTML]="fragment.title"></div>
+        <div class="mem-body" [innerHTML]="fragment.details | replace:memoryService?.people" *ngIf="fragment.isOpened"></div>
+      </div>
     </article>
 
     <div class="bottom">
