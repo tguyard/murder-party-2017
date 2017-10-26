@@ -15,5 +15,10 @@ export class AppComponent {
          .filter(m => m.has('userId'))
          .map(m => m.get('userId'))
          .subscribe(userId => localStorage.setItem('userId', userId));
+
+    route.queryParamMap
+        .filter(m => m.has('name'))
+        .map(m => m.get('name'))
+        .subscribe(userId => localStorage.setItem('name', userId));
   }
 }

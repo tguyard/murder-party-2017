@@ -10,16 +10,17 @@
       Peut être qu'en cherchant bien, je vais réussir à retrouver la mémoire.
     </article>
     <article class="mem" *ngFor="let fragment of memoryService.saved"
-    (click)="fragment.isOpened = !fragment.isOpened">
+    (click)="fragment.isOpened = !fragment.isOpened"
+    [ngClass]="{open: fragment.isOpened}">
       <div *ngIf="fragment != null">
         <div class="mem-title" [innerHTML]="fragment.title"></div>
         <div class="mem-body" [innerHTML]="fragment.details | replace:memoryService?.people" *ngIf="fragment.isOpened"></div>
       </div>
     </article>
 
-    <div class="bottom">
+    <!-- <div class="bottom">
       <a class="button search-bg" href="#/search">Chercher un souvenir</a>
-    </div>
+    </div> -->
 
   </section>
 </div>

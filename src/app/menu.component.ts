@@ -11,10 +11,12 @@ import { Component } from '@angular/core';
       <li><a href="#/search">Se creuser la tête</a></li>
       <li><a href="#/people">Qui est qui ?</a></li>
     </ul>
+    <div class="bottom">{{name}}</div>
   </nav>
   `,
   styleUrls: ['menu.component.sass']
 })
 export class MenuComponent {
   isOpen = false;
+  name = localStorage.getItem('name') || 'noname';
 }

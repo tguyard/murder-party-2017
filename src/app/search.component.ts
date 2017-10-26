@@ -25,7 +25,7 @@ export class SearchComponent {
   public onChange(text: string) {
     this.hasTxt = text.length > 0;
     const words = text.toLowerCase()
-                      .replace(/[\n\r ,.;:-_]+/gm, '|')
+                      .replace(/[\n\r ,.;:"_-]+/gm, '|')
                       .split('|')
                       .filter(w => w.length > 0)
                       .map(w => w.trim())

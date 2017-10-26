@@ -7,10 +7,6 @@ body
     // font-family: 'Dancing Script', cursive;
     // font-family: 'Satisfy', cursive;
 
-.mem
-  // font-family: 'Dancing Script', cursive
-  // font-size: 1.4rem
-
 .mem-body
   font-size: 1.1rem
 
@@ -152,3 +148,23 @@ button, .button
 
 img
   max-width: 100%
+
+
+.memory
+  section
+    padding: 0
+  article
+    padding: .8rem 1rem
+
+  article.mem
+    // font-family: 'Dancing Script', cursive
+    // font-size: 1.4rem
+    max-height: 3rem
+    transition: max-height 5s ease-out
+    background-color: $green-50
+
+  article.open
+    background-color: white
+    max-height: 3500px
+    .mem-title
+      font-weight: bold
