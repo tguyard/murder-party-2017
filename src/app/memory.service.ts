@@ -24,6 +24,7 @@ export class MemoryService {
   };
 
   public defaultPeople = [];
+  public pouvoirUnlocked = false;
 
   public initPeople() {
     const init = ['☯', '♞', '☂', '☀', '★', '☢', '❤', '☎', '⚓', '⚐', '♬', '☘'];

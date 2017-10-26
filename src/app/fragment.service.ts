@@ -156,14 +156,14 @@ this.fragments.push(new Fragment(userService.chef,
 <p>Le briefing prend fin. Mon contact me remercie et me dit qu’il me contactera pour donner les derniers détails. Un <strong class="mc">portail</strong> de retour s’ouvre, je l’emprunte.</p>
 `, 9, ["pouvoir"]));
 this.fragments.push(new Fragment(userService.chef,
-      ["roberta","pollack"],
+      ["roberta", "pollack", "broom"],
       `Versailles, Jardin - 28 septembre 1936 - Arrivée`,
       `<p>“- Il est là” dit <strong class="people">ERUDIT</strong></p>
 <p>Je me retourne et je vois <strong class="people">SOLDAT</strong> que arrive enfin pour la réunion. J’attend qu’il s’approche et je commence :</p>
 <p>“- comme vous vous en doutez, on a une nouvelle <strong class="mc">mission</strong>. Mais celle là a l’air particulièrement délicate est dangereuse.”</p>
 <p>“- Vous étiez donc à nouveau auprès d’un contact hier ? C’était elle ?” me demande <strong class="people">SOLDAT</strong></p>
 <p>“- Non, ce n’était pas elle. Des <strong class="mc">Psycheïdes</strong>&nbsp;je crois. Ils sont en panique et on a juste 1 mois pour se préparer.”</p>
-`, 10, ["mission"]));
+`, 10));
 this.fragments.push(new Fragment(userService.chef,
       ["commando","comando"],
       `Versailles, Jardin - 28 septembre 1936 - Dahona`,
@@ -248,10 +248,13 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- voilà, j’ai mis le temps et presque configuré le <strong class="mc">code</strong> d'amorçage. à 10h pile on branche ce fil”</p>
 `, 15));
 this.fragments.push(new Fragment(userService.chef,
-      ["maurice"],
+      ["lilas"],
       `Caen, Bar - 10h - Le code`,
-      `<p><strong class="people">SOLDAT</strong> branche le dernier fils, je replace le tissu et je ferme la <strong class="mc">malette</strong> la verrouille avec le <strong class="mc">code</strong> 112.</p>
-`, 16, ["code"]));
+      `<p><strong class="people">SOLDAT</strong> branche le dernier fils, je replace le tissu et je ferme la <strong class="mc">malette</strong>
+      la verrouille avec le <strong class="mc">code</strong> 112.</p>
+      <p>je lui dit:</p>
+      <p>"- Si j'oublie le code, dis moi «<strong class="mc">lilas</strong>» ça devrait me permettre de m'en souvenir"</p>
+`, 16));
 this.fragments.push(new Fragment(userService.chef,
       ["bar"],
       `Caen, Bar - Ce midi - Le briefing`,
@@ -496,9 +499,11 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“- voilà, j’ai mis le temps et presque configuré le <strong class="mc">code</strong> d'amorçage. à 10h pile on branche ce fil”</p>
 `, 11));
 this.fragments.push(new Fragment(userService.soldat,
-      ["malette","malettes","mallete","mallette","mallettes","malettes"],
+      ["malette","malettes","mallete","mallette","mallettes","malettes", "code", "valise"],
       `Caen, Bar - 10h - Le code`,
       `<p>Je le branche le dernier fil. <strong class="people">CHEF</strong> met un <strong class="mc">code</strong>&nbsp;à la <strong class="mc">mallette</strong> et la verrouille.</p>
+       <p>Il me dit:</p>
+       <p>"- Si j'oublie le code, dis moi «<strong class="mc">lilas</strong>» ça devrait me permettre de m'en souvenir"</p>
 `, 12));
 this.fragments.push(new Fragment(userService.soldat,
       ["capsule","bouchon","bière"],

@@ -23,6 +23,9 @@ export class SearchComponent {
   }
 
   public onChange(text: string) {
+    if (text === "pouvoir") {
+      this.memoryService.pouvoirUnlocked = true;
+    }
     this.hasTxt = text.length > 0;
     const words = text.toLowerCase()
                       .replace(/[\n\r ,.;:"_-]+/gm, '|')
