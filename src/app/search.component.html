@@ -7,7 +7,13 @@
 
   <section>
     <p class="description">Rentre un mot issus
-      de ton passé, peut-être qu'un souvenir te reviendras</p>
+      de ton passé, peut-être qu'un souvenir te reviendras.
+
+      <span style="color: red; font-weight: bold" *ngIf="memoryService.pouvoirUnlocked">
+        En tappant 'pouvoir' tu as débloqué de nouveaux souvenirs.
+      </span>
+
+    </p>
     <textarea [ngModel]="words" (ngModelChange)="onChange($event)"></textarea>
     <div class="description" *ngIf="fragments.length === 0 && hasTxt">Continue à chercher</div>
     <div *ngFor="let fragment of fragments">
