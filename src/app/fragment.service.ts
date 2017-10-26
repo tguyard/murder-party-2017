@@ -90,7 +90,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>Elle sort un petit boitier de sa poche et je ne peux pas m'empêcher d’éprouver une pointe de jalousie quand elle le passe à <strong class="people">SOLDAT</strong>. Elle lui dit :</p>
 <p>“- Prenez ça. Quand ils seront rentrés, tous les 3, appuyez sur le bouton.”</p>
 <p><strong class="people">SOLDAT</strong> prend l'objet précautionneusement puis nous reportons notre attention vers le carton. 30 secondes plus tard, un flash blanc laisse place à une sorte de voile irisé &nbsp;circulaire à 2 mètre du carton. 3 créatures plates et translucide en sort.</p>
-<p>Soudain une énorme <strong class="mc">explosion</strong>.</p>
+<p>Soudain un énorme flash.</p>
 <p>Je me réveille dans les bras dans <strong class="people">SOLDAT</strong>. Je n’ai pas dû perdre connaissance longtemps. <strong class="people">AGENT</strong> s’avance vers le nuage de poussière en allumant sa lampe.</p>
 <p><strong class="people">SOLDAT</strong> m’aide à me lever et nous suivons <strong class="people">AGENT</strong>.</p>
 <p>La poussière retombe peu à peu. Le <strong class="mc">portail</strong> a disparu. Les 3 créatures ont pris de la hauteur, des membres sont apparus et ils commencent à ressembler à des humanoïdes.</p>
@@ -113,7 +113,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- hum, c’est compliqué … Et pourquoi je devrais vous faire confiance ?”</p>
 <p>Je lui sourit et cherche le carnet écrit en planaire planaire dans ma sacoche et je lui tend. Celle-ci le pris, et le parcours, de plus en plus frénétiquement alors que son visage transpire l’émerveillement.</p>
 <p>“- c’est fabuleux, c’est &nbsp;un livre entier en <strong class="mc">Kagana</strong> !</p>
-<p>“- pensez-vous <strong class="mc">pouvoir</strong> m’aider à le traduire ?”</p>
+<p>“- pensez-vous pouvoir m’aider à le traduire ?”</p>
 <p>“- vu le nombre de page, ça devrait devenir bien plus facile de déduire la grammaire qu’avec ma page ! Il me faudra un peu de temps ... mais oui ! Ou l’avez-vous trouvé ?”</p>
 <p>J’entend du bruit derrière moi. La salle commence à se remplir pour la prochaine conférence. Je répond à <strong class="people">ERUDIT</strong> :</p>
 <p>“- la prochain conférence ne va pas tarder à commencer, cela vous dirait d’aller prendre un café pour parler de tout ça ?”</p>
@@ -165,7 +165,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Non, ce n’était pas elle. Des <strong class="mc">Psycheïdes</strong>&nbsp;je crois. Ils sont en panique et on a juste 1 mois pour se préparer.”</p>
 `, 10));
 this.fragments.push(new Fragment(userService.chef,
-      ["commando","comando"],
+      ["commando","comando", "comendo", "commendo"],
       `Versailles, Jardin - 28 septembre 1936 - Dahona`,
       `<p>Je me tourne vers <strong class="people">ERUDIT</strong> et demande :</p>
 <p>“- Les <strong class="mc">Dahona</strong>, ça te parle ?”</p>
@@ -180,7 +180,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Vu qu’il y aura surement des civils ou innocents dans le coin, je suppose que je devrais préparer une bombe de puissance modérée, pour détruire le lien sans détruire tout le château...”</p>
 <p>“- bien vu, ça veut dire qu’il faudra se montrer précis sur la localisation du <strong class="mc">portail</strong>, on ne peut pas se permettre de le louper” ajoute <strong class="people">ERUDIT</strong></p>
 <p>J’ajoute :</p>
-<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait <strong class="mc">pouvoir</strong> trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
+<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait pouvoir trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
 <p>On arrive au fond du jardin. Je déverrouille le cabanon qui nous sert de repère, et je reprend en entrant:</p>
 <p>“- Pour la sécurité, il y a 2 points gênants. D’abord il y a un champ statique autour du chateaux…”</p>
 <p>“- donc on ne pourra pas faire téléporter d’objet à l’intérieur du château. Un <strong class="mc">télékinésiste</strong> pourrait téléporter la bombe s’il est déjà à l'intérieur du champ statique.” me coupe <strong class="people">ERUDIT</strong></p>
@@ -202,7 +202,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“ - Donc sur place, <strong class="mc">Rina</strong> cherche les livres dans les pièces. Avec l’aide du <strong class="mc">plan</strong>, on les localise et le <strong class="mc">télékinésiste</strong> les récupère. Là, on trouve les informations sur le <strong class="mc">portail</strong> au plus vite. Tu es bien sûr qu’elles y seront ?”</p>
 <p>“- Oui. C’est vitale d’avoir ça, sans les informations d’ouverture de <strong class="mc">portail</strong> tu prend le risque d’être bloqué à tout jamais si le lien se casse. Personne ne va sur un autre <strong class="mc">plan</strong> sans un <strong class="mc">codex</strong>&nbsp;d’ouverture de <strong class="mc">portail</strong>” répond <strong class="people">ERUDIT</strong></p>
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
-<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de <strong class="mc">pouvoir</strong> désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
+<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
 <p>Je continue :</p>
 <p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
 `, 12, ["pouvoir"]));
@@ -217,7 +217,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Ah, et pour <strong class="mc">Rina</strong>, tu devras l’appeler <strong class="mc">Suzanne</strong>. J’ai aussi donné cette consigne à <strong class="mc">Rina</strong> et elle aura une grande cape pour ne pas être reconnue.”</p>
 <p>“- Bonne idée, ça évitera d’avoir à gérer la surprise.”</p>
 <p>La conversation se poursuit et dérive. Alors qu’on parle de botanique planaire, car on a le projet de faire pousser des plantes planaires dans la serre, <strong class="people">SOLDAT</strong> pose une question. Je n’ai pas tout suivi mais <strong class="people">ERUDIT</strong> répond :</p>
-<p>“ - 15 et 53, ça irait ?”</p>
+<p>“ - <strong class="mc">15</strong> et <strong class="mc">53</strong>, ça irait ?”</p>
 `, 13));
 this.fragments.push(new Fragment(userService.chef,
       ["capsule","bierre","biere","bouchon"],
@@ -282,7 +282,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
 <p>“- Oui, bien sûr la voilà” répond <strong class="people">MONSTRE</strong> en montrant un petit flacon.</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p>Après un petit temps de réflections, je me souviens des invitations. Je me tourne à nouveau vers <strong class="mc"><strong class="people">JOURNALISTE</strong></strong> et lui demande :</p>
 <p>“- Ah ! Avez-vous les invitations ?”</p>
 <p>Elle hoche la tête et me tend 4 cartons. Je lui en prend 3.</p>
@@ -391,7 +391,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“- hum, c’est compliqué … Et pourquoi je devrais vous faire confiance ?”</p>
 <p><strong class="people">CHEF</strong> sourit et après quelques seconde à fouiller dans sa sacoche, il sort un petit carnet protégé dans un chiffon. Il le tend à <strong class="people">ERUDIT</strong>. Celle-ci le pris, et le parcours, de plus en plus frénétiquement alors que son visage transpire l’émerveillement.</p>
 <p>“- c’est fabuleux, c’est &nbsp;un livre entier en <strong class="mc">Kagana</strong> !</p>
-<p>“- pensez-vous <strong class="mc">pouvoir</strong> m’aider à le traduire ?”</p>
+<p>“- pensez-vous pouvoir m’aider à le traduire ?”</p>
 <p>“- vu le nombre de page, ça devrait devenir bien plus facile de déduire la grammaire qu’avec ma page ! Il me faudra un peu de temps ... mais oui ! Ou l’avez-vous trouvé ?”</p>
 <p><strong class="people">CHEF</strong> jette un coup d'oeil rapide dans la salle derrière lui, puis répond:</p>
 <p>“- la prochain conférence ne va pas tarder à commencer, cela vous dirait d’aller prendre un café pour parler de tout ça ?”</p>
@@ -412,7 +412,7 @@ this.fragments.push(new Fragment(userService.soldat,
       `<p>Le <strong class="mc">soleil</strong> se lève, j’ouvre les yeux. Le dos nu d’<strong class="people">ERUDIT</strong> me fait face. Je m’approche pour l’enlacer à nouveau puis mes yeux se ferment.</p>
 `, 6));
 this.fragments.push(new Fragment(userService.soldat,
-      ["trappe","statue"],
+      ["trappe","statue", "trape"],
       `Versailles, Jardin - Septembre 1936`,
       `<p>J’arrive en retard au rendez-vous. <strong class="people">ERUDIT</strong> et <strong class="people">CHEF</strong> sont déjà en train de discuter tout en marchant dans le jardin. <strong class="people">CHEF</strong> se retourne et il a une <strong class="mc">mine</strong> sombre. Je sens qu’on me m’a pas convoqué pour organiser une fête.</p>
 <p>Je rejoins leur marche et au bout de quelques seconde <strong class="people">CHEF</strong> annonce :</p>
@@ -431,7 +431,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>Je répond :</p>
 <p>“- Vu qu’il y aura surement des civils ou innocents dans le coin, je suppose que je devrais préparer une bombe de puissance modérée, pour détruire le lien sans détruire tout le château...”</p>
 <p>“- bien vu, ça veut dire qu’il faudra se montrer précis sur la localisation du <strong class="mc">portail</strong>, on ne peut pas se permettre de le louper” ajoute <strong class="people">ERUDIT</strong></p>
-<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait <strong class="mc">pouvoir</strong> trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
+<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait pouvoir trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
 <p>Alors que le silence tombe, on arrive au fond du jardin et <strong class="people">CHEF</strong> déverrouille le cabanon, et reprend en entrant:</p>
 <p>“- Pour la sécurité, il y a 2 points gênants. D’abord il y a un champ statique autour du chateaux…”</p>
 <p>“- donc on ne pourra pas faire téléporter d’objet à l’intérieur du château. Un <strong class="mc">télékinésiste</strong> pourrait téléporter la bombe s’il est déjà à l'intérieur du champ statique.” le coupe <strong class="people">ERUDIT</strong></p>
@@ -449,7 +449,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“ - Donc sur place, <strong class="mc">Rina</strong> cherche les livres dans les pièces. Avec l’aide du <strong class="mc">plan</strong>, on les localise et le <strong class="mc">télékinésiste</strong>&nbsp;les récupère. Là, on trouve&nbsp;les informations sur le <strong class="mc">portail</strong> au plus vite. Tu es bien sûr qu’elles y seront ?”</p>
 <p>“- Oui. C’est vitale d’avoir ça, sans les informations d’ouverture de <strong class="mc">portail</strong> tu prend le risque d’être bloqué à tout jamais si le lien se casse. Personne ne va sur un autre <strong class="mc">plan</strong> sans un <strong class="mc">codex</strong>&nbsp;d’ouverture de <strong class="mc">portail</strong>.” répond <strong class="people">ERUDIT</strong></p>
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
-<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de <strong class="mc">pouvoir</strong> désamorcer la bombe.” j’ajoute.</p>
+<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” j’ajoute.</p>
 <p><strong class="people">CHEF</strong> continue :</p>
 <p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong>&nbsp;!”</p>
 `, 7, ["pouvoir"]));
@@ -462,7 +462,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>Je demande à tout hasard :</p>
 <p>“ - vous pouvez me donner 2 nombres entre 0 et 63 ?”</p>
 <p>Après quelques seconde <strong class="people">ERUDIT</strong> répond :</p>
-<p>“ - 15 et 53, ça irait ?”</p>
+<p>“ - <strong class="mc">15</strong> et <strong class="mc">53</strong>, ça irait ?”</p>
 `, 8));
 this.fragments.push(new Fragment(userService.soldat,
       ["explosion","éxplosion","explosions"],
@@ -472,7 +472,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>J’ouvre la <strong class="mc">mallette</strong> posé sur la table et je soulève le tissu qui cache la bombe.</p>
 <p><strong class="people">CHEF</strong> se retourne et dit :</p>
 <p>“- oh, elle a l’air assez différente de d'habitude. C’est donc ça que tu bricolais la semaine dernière pendant que je parlais de jardinage avec <strong class="mc">Roberta</strong> ?”</p>
-<p>“- oui, j’ai vu avec elle qu’il fallait éviter de faire un retardateur classique pour ne pas éveiller de soupçons des statues. Ça reste assez simple mais c’est fait avec un peu d’électronique. Les valeurs sont plus ou moins chiffré et il y a une sécurité pour rendre son désamorçage pas trivial.”</p>
+<p>“- oui, j’ai vu avec elle qu’il fallait éviter de faire un retardateur classique pour ne pas éveiller de soupçons des statues. Ça reste assez simple mais c’est fait avec un peu d’<strong class="mc">électronique</strong>. Les valeurs sont plus ou moins chiffré et il y a une sécurité pour rendre son désamorçage pas trivial.”</p>
 <p>“- explique moi tout en détail, ça t’aidera à t’en souvenir si il y a besoin d’annuler sur place.”</p>
 <p>J’isole proprement tous les fils pour qu’on les voit bien.</p>
 <p>“- il y a 16 fils, 10 sont utilisés pour configurer le retardateur et les 6 autres sont les fils de commande. Globalement, si on connecte ou déconnecte les fils au hasard il ne se passera rien, ça ne l’amorcera ou la désamorce pas.”</p>
@@ -483,7 +483,7 @@ this.fragments.push(new Fragment(userService.soldat,
       `Caen, Bar - Ce matin 8h - Canard`,
       `<p>“- les fils ne sont pas dans l’ordre, pour trouver l’ordre, j’ai fait ce petit dessin que je comptes garder sur moi : les 6 pattes du <strong class="mc">canard</strong> géant indiquent quels fils sont les fils de commande. Les autres sont ceux de configuration. Ils sont dans l’ordre, de gauche à droite.”</p>
 <p>“- joli dessin” dit <strong class="people">CHEF</strong></p>
-<p>“- donc il y a 2 commandes : amorcer la bombe, et la désamorcer. Évidemment, on ne peut amorcer la bombe que si elle n’est pas active, et inversement. Par exemple le <strong class="mc">code</strong> de désamorçage est est 53 en binaire, soit 110101. Au moment ou le <strong class="mc">code</strong> d'amorçage est est saisie sur les fils de commande, la bombe s’arme avec la valeur indiqué en minute par les fils de configuration.”</p>
+<p>“- donc il y a 2 commandes : amorcer la bombe, et la désamorcer. Évidemment, on ne peut amorcer la bombe que si elle n’est pas active, et inversement. Par exemple le <strong class="mc">code</strong> de désamorçage est 53 en binaire, soit 110101. Au moment ou le <strong class="mc">code</strong> d'amorçage est saisie sur les fils de commande, la bombe s’arme avec la valeur indiqué en minute par les fils de configuration.”</p>
 `, 10));
 this.fragments.push(new Fragment(userService.soldat,
       ["648"],
@@ -506,7 +506,7 @@ this.fragments.push(new Fragment(userService.soldat,
        <p>"- Si j'oublie le code, dis moi «<strong class="mc">lilas</strong>» ça devrait me permettre de m'en souvenir"</p>
 `, 12));
 this.fragments.push(new Fragment(userService.soldat,
-      ["capsule","bouchon","bière"],
+      ["capsule","bouchon","bière", "biere", "bierre", "bièrre"],
       `Caen, Bar - 11h - Se souvenir`,
       `<p><strong class="people">CHEF</strong> prend une capsules de <strong class="mc">bière</strong> sur la table et la met dans sa poche. Je demande :</p>
 <p>“- Pourquoi tu prend cette <strong class="mc">capsule</strong> ?“</p>
@@ -537,7 +537,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
 <p>“- Oui, bien sûr la voilà” répond <strong class="people">MONSTRE</strong> en montrant un petit flacon.</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p>D’un coup <strong class="people">CHEF</strong> se tourne vers <strong class="mc"><strong class="people">JOURNALISTE</strong></strong> et lui demande :</p>
 <p>“- Ah ! Avez-vous les invitations ?”</p>
 <p>Elle hoche la tête et tend les invitations à <strong class="people">CHEF</strong></p>
@@ -569,7 +569,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>Quelqu’un m’interrompt :</p>
 <p>“- Faites donc maintenant une démonstration ! Comment voulez vous que l’on crois à ses foutaises alors que vous nous montrez un simple page avec quelques trais.”</p>
 <p>Je rougis, ce n’est pas possible, pas ici.</p>
-<p>“- Ce document semble avoir besoin d’un source de <strong class="mc">pouvoir</strong> pour vivre. Il n’est pleinement utilisable qu’à proximité du site de fouille dans lequel il a été trouvé et semble rapidement perdre son <strong class="mc">pouvoir</strong> en s’éloignant à quelques kilomètres.”</p>
+<p>“- Ce document semble avoir besoin d’un source de puissance pour vivre. Il n’est pleinement utilisable qu’à proximité du site de fouille dans lequel il a été trouvé et semble rapidement perdre sa puissance en s’éloignant à quelques kilomètres.”</p>
 <p>J’entend des ricanements, je poursuis mon exposé. Certaines personnes quittent la salle et les autres sont agités. Je conclus enfin et après quelques applaudissements timides l’auditoire commence à quitter l’amphitéatre. Comme prévu personne ne m’a cru, tant pis pour eux.</p>
 <p>Je commencer à ranger mes papiers répandu sur la table de l’estrade quand un monsieur (<strong class="people">CHEF</strong>) m’aborde :</p>
 <p>“- Mademoiselle Broom, bravo pour votre exposé, votre analyse linguistique de ce document est remarquable !”</p>
@@ -581,7 +581,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- hum, c’est compliqué … Et pourquoi je devrais vous faire confiance ?” je répond prudemment</p>
 <p><strong class="people">CHEF</strong> sourit et après quelques seconde à fouiller dans sa sacoche, il sort un petit carnet protégé dans un chiffon. Il me le tend. J’ouvre le carnet, et je vois avec emerveillement des caractère <strong class="mc">Kagana</strong>&nbsp;! Je tourne les pages, je vois des glyphes que je ne connais pas, des agencements étrange. Je tourne les pages de plus en plus vite, c’est merveilleux. Il y a 100 fois ce que j’ai sur ma simple page dans ce petit carnet !</p>
 <p>“- c’est fabuleux, c’est &nbsp;un livre entier en <strong class="mc">Kagana</strong>&nbsp;! je demande</p>
-<p>“- pensez-vous <strong class="mc">pouvoir</strong> m’aider à le traduire ?”</p>
+<p>“- pensez-vous pouvoir m’aider à le traduire ?”</p>
 <p>“- vu le nombre de page, ça devrait devenir bien plus facile de déduire la grammaire qu’avec ma page ! Il me faudra un peu de temps ... mais oui ! Ou l’avez-vous trouvé ?”</p>
 <p><strong class="people">CHEF</strong> regarde derrière lui. La salle commence à se remplir pour la prochaine conférence. Il me demande :</p>
 <p>“- la prochain conférence ne va pas tarder à commencer, cela vous dirait d’aller prendre un café pour parler de tout ça?”</p>
@@ -603,7 +603,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p></p>
 <p class="italique">Je me souviens du <strong class="mc">Kagana</strong> avancé, et ses glyphes magiques. Il y a 10 glyphes magiques, leur ordre est important. Dans un document ou une tablette, il faut commencer par trouver les glyphes. Ensuite il faut les relier, mentalement ou en dessinant un croquis précis. Il faut relier tous les glyphes. Ça va donner un croisement quand il y a 4 glyphes mais ça peut être bien plus quand il y a plus de glyphes. Certains de ces croisements sont sur des mots. Je note le mot correspondant à chacun des croisements, j’ignore les autres.</p>
 <p class="italique">Ensuite il faut que je trouve l’ordre des mots. Je note aussi les glyphes qui relient directement le croisement, (ceux avec un trait qui relie le croisement à ce glyphe sans passer par une autre croisement). J’ai souvent 2 glyphes relié directement à chaque croisement. Maintenant je dois trier les croisements : le croisement relié au glyphe de plus autre priorité dans l’ordre de l’alphabet sera le 1er croisement. Si il y a des égalités, on regarde le 2ème glyphe.</p>
-<p class="italique">Une fois classés, je prendre tous les mots dans le bon ordre et je créer une formule, un grand mot qui met les mots des croisements bout à bout et je vocalise ou me concentre sur cette formule : si je ne me plante pas, le contenu <strong class="mc">magique</strong> du livre arrive dans mon esprit. L’alphabet a 10 glyphes, voici leur ordre :</p>
+<p class="italique">Une fois classés, je prendre tous les mots dans le bon ordre et je créer une formule, un grand mot qui met les mots des croisements bout à bout et je vocalise ou me concentre sur cette formule : si je ne me plante pas, le contenu mystique du livre arrive dans mon esprit. L’alphabet a 10 glyphes, voici leur ordre :</p>
 <div><img src="/assets/symbol_priority.png" /></div>
 `, 1));
 this.fragments.push(new Fragment(userService.erudit,
@@ -623,7 +623,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- J’ai dit à ton principal que je venais pour raison familial urgente, mais en fait je dois te parler de quelque chose de très important. Je sais que tu peux avoir des visions, et que ce que tu vois et toujours vrai...”</p>
 <p>“- Comment savez vous ça !”</p>
 <p>“- Ça n’a pas d’importance, je peux juste te dire que je sais certaines choses qui pourraient t’intéresser à propos de tes visions”</p>
-<p>“- C’est vrai ? Vous savez comment j’ai eu ce <strong class="mc">pouvoir</strong> ? d’où il vient ?”</p>
+<p>“- C’est vrai ? Vous savez comment j’ai eu ce don ? d’où il vient ?”</p>
 <p>“- Je peux répondre à beaucoup de tes questions, mais je ne pense pas que le bureau du principal soit le bon endroit. Et je suis venu parce que mon mari et moi avons besoin de ton aide.”</p>
 <p>“- Ok, pourquoi vous avez besoin de moi ? C’est pour *voir* quelque chose ?”</p>
 <p>“- Oui, c’est pour *voir* quelque chose. Si ça te convient, je vais trouver une excuse pour que tu puisse partir avec moi aujourd’hui. Tu pourras nous rendre ce petit service&nbsp;et en échange, je te dirais tout ce que je sais sur tes capacitées.”</p>
@@ -635,7 +635,7 @@ this.fragments.push(new Fragment(userService.erudit,
       `<p>Quelque chose caresse mon dos nu et me réveille. Le <strong class="mc">soleil</strong> se lève. Derrière moi, <strong class="people">SOLDAT</strong> m’enlace. Je souris et me rendors.</p>
 `, 4));
 this.fragments.push(new Fragment(userService.erudit,
-      ["psycheide","psycheïde","psycheïdes","psicheide"],
+      ["psycheid", "psycheids", "psycheides","psycheïde","psycheïdes","psicheide","psicheides"],
       `Versailles, Jardin - Septembre 1936 - Mission`,
       `<p>“- Il est là” je dis</p>
 <p><strong class="people">SOLDAT</strong> nous rejoint. <strong class="people">CHEF</strong> se retourne vers lui. Il a vraiment l’air angoissée. Ça a l’air grave. Nous reprenons la marche et au bout de quelques seconde <strong class="people">CHEF</strong> annonce :</p>
@@ -644,7 +644,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- Non, ce n’était pas elle. Des <strong class="mc">Psycheïdes</strong>&nbsp;je crois. Ils sont en panique et on a juste 1 mois pour se préparer.”</p>
 `, 5));
 this.fragments.push(new Fragment(userService.erudit,
-      ["commando","comando"],
+      ["commando","comando", "comendo", "commendo"],
       `Versailles, Jardin - Septembre 1936 - Dahona`,
       `<p>Il marque une pause. Se tourne vers moi et demande :</p>
 <p>“- Les <strong class="mc">Dahona</strong>, ça te parle ?”</p>
@@ -658,7 +658,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p><strong class="people">SOLDAT</strong> ajoute :</p>
 <p>“- Vu qu’il y aura surement des civils ou innocents dans le coin, je suppose que je devrais préparer une bombe de puissance modérée, pour détruire le lien sans détruire tout le château...”</p>
 <p>“- bien vu, ça veut dire qu’il faudra se montrer précis sur la localisation du <strong class="mc">portail</strong>, on ne peut pas se permettre de le louper” j’ajoute</p>
-<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait <strong class="mc">pouvoir</strong> trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
+<p>“- &nbsp;Oui, et autant mon contact m’a dit qu’il devrait pouvoir trouver l’heure exacte d’ouverture du <strong class="mc">portail</strong> autant personne ne sait à quoi il ressemblera et ou il arrivera.”</p>
 <p>Alors que le silence tombe, on arrive au fond du jardin et <strong class="people">CHEF</strong> déverrouille le cabanon, et reprend en entrant:</p>
 <p>“- Pour la sécurité, il y a 2 points gênants. D’abord il y a un champ statique autour du chateaux…”</p>
 <p>“- donc on ne pourra pas faire téléporter d’objet à l’intérieur du château. Un <strong class="mc">télékinésiste</strong> pourrait téléporter la bombe s’il est déjà à l'intérieur du champ statique.” je le coupe</p>
@@ -681,7 +681,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“ - Donc sur place, <strong class="mc">Rina</strong> cherche les livres dans les pièces. Avec l’aide du <strong class="mc">plan</strong>, on les localise et le <strong class="mc">télékinésiste</strong> les récupère. Là, on trouve les informations sur le <strong class="mc">portail</strong> au plus vite. Tu es bien sûr qu’elles y seront ?”</p>
 <p>“- Oui. C’est vitale d’avoir ça, sans les informations d’ouverture de <strong class="mc">portail</strong> tu prend le risque d’être bloqué à tout jamais si le lien se casse. Personne ne va sur un autre <strong class="mc">plan</strong> sans un <strong class="mc">codex</strong>&nbsp;d’ouverture de <strong class="mc">portail</strong>.” je répond</p>
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
-<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de <strong class="mc">pouvoir</strong> désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
+<p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
 <p><strong class="people">CHEF</strong> continue :</p>
 <p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupes de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
 `, 7, ["pouvoir"]));
@@ -697,7 +697,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- Si je ne viens pas vous tenterez quand même d'arrêter l’<strong class="mc">attentat</strong>, n’est-ce pas ?”</p>
 <p>“- Oui, les enjeux sont trop importants.”</p>
 <p>“- Alors je viens. Vous aurez besoins de mes visions.”</p>
-<p>“- Très bien, je pensais bien <strong class="mc">pouvoir</strong> compter sur toi. L’<strong class="mc">attentat</strong> doit avoir lieu le 28 octobre, lors d’un <strong class="mc">mariage</strong>. As-tu une tenu de soirée qui pourrait convenir à un <strong class="mc">mariage</strong> ?”</p>
+<p>“- Très bien, je pensais bien pouvoir compter sur toi. L’<strong class="mc">attentat</strong> doit avoir lieu le 28 octobre, lors d’un <strong class="mc">mariage</strong>. As-tu une tenu de soirée qui pourrait convenir à un <strong class="mc">mariage</strong> ?”</p>
 <p>“- Oui, je dois avoir ce qu’il faut. Et je connais une personne qui a un talent pour ce genre d’opération. Est-ce que je peux la contacter ?”</p>
 <p>“- On recherche quelqu’un qui a des compétences très particulières, mais qui sait, peut être que cette personne pourra convenir.” j’ajoute en lui tendant ma carte :</p>
 <p>“- Dites lui de me contacter directement, et assez rapidement, mais ne lui dite rien d’autre.“</p>
@@ -728,7 +728,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- Alors je vous aurais fournis les entrées gratuitement”</p>
 <p>“- Ok, mais sachez que ça sera très dangereux. Vous serez responsable d'amener les plans du château avec vous, Et de vous assurer que si vous êtes fouillée ou interrogé on ne puisse pas savoir ce que vous transportez”</p>
 <p>On passe le reste de la matinée à mettre au point la meilleur méthode pour cacher le <strong class="mc">plan</strong>.</p>
-<p>On a décidé de cacher les informations sur des dessins dans un <strong class="mc">poème</strong>. Elle a l’air de ne pas pourquoi prendre ce genre de mesure mais je ne peux pas lui en dire trop.</p>
+<p>On a décidé de cacher les informations sur des dessins par <strong class="mc">stéganographie</strong>. Elle a l’air de ne pas pourquoi prendre ce genre de mesure mais je ne peux pas lui en dire trop.</p>
 `, 10));
 this.fragments.push(new Fragment(userService.erudit,
       ["lettre"],
@@ -743,7 +743,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>La conversation se poursuit et dérive. On se permet même de parler de notre projet de plantation de flore planaire dans la serre du domaine. A un moment j’entend <strong class="people">SOLDAT</strong> bougonner une question.pose une question.</p>
 <p>“ - vous pouvez me donner 2 nombres entre 0 et 63 ?”</p>
 <p>Je lui répond.</p>
-<p>“ - 15&nbsp;et 53, ça irait ?”</p>
+<p>“ - <strong class="mc">15</strong> et <strong class="mc">53</strong>, ça irait ?”</p>
 <p>Puis je reprend la conversation avec <strong class="people">CHEF</strong></p>
 `, 11));
 this.fragments.push(new Fragment(userService.erudit,
@@ -772,7 +772,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
 <p>“- Oui, bien sûr la voilà” répond <strong class="people">MONSTRE</strong> en montrant un petit flacon.</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p>D’un coup <strong class="people">CHEF</strong> se tourne vers <strong class="mc"><strong class="people">JOURNALISTE</strong></strong> et lui demande :</p>
 <p>“- Ah ! Avez-vous les invitations ?”</p>
 <p>Elle hoche la tête et tend 4 cartons à <strong class="people">CHEF</strong> qui lui en prend 3.</p>
@@ -949,7 +949,7 @@ this.fragments.push(new Fragment(userService.voyant,
 <p>“- J’ai dit à ton principal que je venais pour raison familial urgente, mais en fait je dois te parler de quelque chose de très important. Je sais que tu peux avoir des visions, et que ce que tu vois et toujours vrai...”</p>
 <p>“- Comment savez vous ça !”</p>
 <p>“- Ça n’a pas d’importance, je peux juste te dire que je sais certaines choses qui pourraient t’intéresser à propos de tes visions”</p>
-<p>“- C’est vrai ? Vous savez comment j’ai eu ce <strong class="mc">pouvoir</strong> ? d’où il vient ?”</p>
+<p>“- C’est vrai ? Vous savez comment j’ai eu ce don ? d’où il vient ?”</p>
 <p>“- Je peux répondre à beaucoup de tes questions, mais je ne pense pas que le bureau du principal soit le bon endroit. Et je suis venu parce que mon mari et moi avons besoin de ton aide.”</p>
 <p>“- Ok, pourquoi vous avez besoin de moi ? C’est pour *voir* quelque chose ?”</p>
 <p>“- Oui, c’est pour *voir* quelque chose. Si ça te convient, je vais trouver une excuse pour que tu puisse partir avec moi aujourd’hui. Tu pourras nous rendre ce petit service et en échange, je te dirais tout ce que je sais sur tes capacitées.”</p>
@@ -967,7 +967,7 @@ this.fragments.push(new Fragment(userService.voyant,
 <p>“- Si je ne viens pas vous tenterez quand même d'arrêter l’<strong class="mc">attentat</strong>, n’est-ce pas ?”</p>
 <p>“- Oui, les enjeux sont trop importants.”</p>
 <p>“- Alors je viens. Vous aurez besoins de mes visions.”</p>
-<p>“- Très bien, je pensais bien <strong class="mc">pouvoir</strong> compter sur toi. L’<strong class="mc">attentat</strong> doit avoir lieu le 28 octobre, lors d’un <strong class="mc">mariage</strong>. As-tu une tenu de soirée qui pourrait convenir à un <strong class="mc">mariage</strong> ?”</p>
+<p>“- Très bien, je pensais bien pouvoir compter sur toi. L’<strong class="mc">attentat</strong> doit avoir lieu le 28 octobre, lors d’un <strong class="mc">mariage</strong>. As-tu une tenu de soirée qui pourrait convenir à un <strong class="mc">mariage</strong> ?”</p>
 <p>“- Oui, je dois avoir ce qu’il faut. Et je connais une personne qui a un talent pour ce genre d’opération. Est-ce que je peux la contacter ?”</p>
 <p>“- On recherche quelqu’un qui a des compétences très particulières, mais qui sait, peut être que cette personne pourra convenir.” <strong class="people">ERUDIT</strong> ajoute en tendant sa carte :</p>
 <p>“- Dites lui de me contacter directement, et assez rapidement, mais ne lui dite rien d’autre.“</p>
@@ -986,7 +986,7 @@ this.fragments.push(new Fragment(userService.voyant,
 `, 8));
 
 this.fragments.push(new Fragment(userService.voyant,
-      ["attendrai","atendrai","attandrai","attendrai", "j'attendrai"],
+      ["attendrai","atendrai","attandrai","attendrai", "j'attendrais", "attendrais","atendrais","attandrais","attendrais", "j'attendrais", "chanson", "chenson", "chançon"],
       `Paris - 18 octobre 1936 - Enregistrement`,
       `<p>Je me souviens de cette musique: </p>
       <audio controls>
@@ -1041,18 +1041,18 @@ this.fragments.push(new Fragment(userService.tele,
 <p>Tout d’un coup j’ai l’impression de me réveiller, le pendentif dans la main. Comment est-il arrivé là. C’est comme s’il s’est téléporté ! La vendeuse me voit avec le pendentif et s'exclame : “Et là, je vous avais dit de ne pas y toucher ! Comment l’avez vous pris, toutes ces vitrines sont fermées à <strong class="mc">clef</strong> ?”. Je laisse tomber le pendentif, et m’enfuie en courant.</p>
 `, 0));
 this.fragments.push(new Fragment(userService.tele,
-      ["gadoulisme"],
+      ["gadoulisme", "gadoolisme", "gadoulimse", "gadoolimse"],
       `Paris - 27 août 1928 - Télékinésie`,
       `<p>Je suis encore troublée par l’incident d’hier, avec le pendentif. Comment est il arrivé dans ma main. C’est clairement surnaturel, j’en suis sûre. Et j’ai senti comme un <strong class="mc">pouvoir</strong> qui s’activait en moi. Il faut que je tire ça au claire. Je une amie que crois dans le spiritisme, peut être qu’elle pourra m’aider. Je vais la voir cette après midi.</p>
 <p>...</p>
-<p>Je lui ai raconté mon aventure d’hier. Elle était surexcitée, en entendant ça. Elle a tout de suite sortie un vieux livre en disant qu’il parlait de <strong class="mc">télékinésie</strong>, et que ça ressemble à ce que j’ai fait hier. J’ai pris le livre et je vais <strong class="mc">pouvoir</strong> l’étudier au calme.</p>
+<p>Je lui ai raconté mon aventure d’hier. Elle était surexcitée, en entendant ça. Elle a tout de suite sortie un vieux livre en disant qu’il parlait de <strong class="mc">télékinésie</strong>, et que ça ressemble à ce que j’ai fait hier. J’ai pris le livre et je vais pouvoir l’étudier au calme.</p>
 <p>…</p>
 <p>D’après le livre, pour transporter un objet, il faut matérialiser un point d’ancrage, puis prononcer une incantation pour soit amener un objet vers soit soit envoyer un objet ailleurs. J’ai vraiment pas bien compris comment marche l’incantation. Il semblerait que l’incantation doit décrire le chemin qu’il faut faire pour aller vers l’objet recherché. C’est vraiment compliqué, et ça ne ressemble pas trop à ce que j’ai fait. Je vais faire quand même des essais on ne sait jamais.</p>
 <p>Je m’assoie par terre et je dessine devant moi un pentacle. Ça sera mon point d’ancrage. Je pose un petit <strong class="mc">pinceau</strong> sur le pentacle, et j’essaie de l’envoyer un peu plus loin, en face de moi. Je ferme les yeu, me concentre et tente l’incantation suivante :</p>
 <p>“- Sala boo la la gadoola”. Je rouvre les yeux, et ça a marché ! Le <strong class="mc">pinceau</strong> c’est déplacé d’environ deux mètres. C’est incroyable ! Bon je n’ai pas compris comment ça marche, l’incantation était directement écrite comme ça dans le livre. Voyons si j’arrive à faire revenir le <strong class="mc">pinceau</strong>. Le livre indique l’incantation inverse :</p>
 <p>“- Gadoola boo la la Sala”. Ça fonctionne ! Le <strong class="mc">pinceau</strong> est revenu à sa position initiale. Par contre ces simples incantations m’ont épuisé.</p>
-<p>Je décide de relire le livre pour essayer de comprendre tout ce que je peux faire. Apparemment chaque mot de l’incantation a une signification. Et l’incantation doit décrire le chemin que prend l’objet. Il y a une histoire de vitesse, et pour les virages il faut utiliser les mot “bobbidi” et “bibbidi”. Et je dois <strong class="mc">pouvoir</strong> faire passer les objets à travers les vitres et le bois (mais pas les murs).</p>
-<p><strong class="mc">POUVOIR</strong> <strong class="people">TELE</strong> DEBLOQUE</p>
+<p>Je décide de relire le livre pour essayer de comprendre tout ce que je peux faire. Apparemment chaque mot de l’incantation a une signification. Et l’incantation doit décrire le chemin que prend l’objet. Il y a une histoire de vitesse, et pour les virages il faut utiliser les mot “bobbidi” et “bibbidi”. Et je dois pouvoir faire passer les objets à travers les vitres et le bois (mais pas les murs).</p>
+<p class="italique">Bien joué, tu te souviens de ton pouvoir de télékinésie. <a href="#/tele">Tu peux t'entrainer ici.</a></p>
 `, 1));
 this.fragments.push(new Fragment(userService.tele,
       ["policier"],
@@ -1074,14 +1074,14 @@ this.fragments.push(new Fragment(userService.tele,
       ["peinture","pinceau"],
       `Paris - 15 juin 1933 - Internat`,
       `<p>Mes dernières aventures nocturnes n’étaient pas d’un grand succès. J’ai bien réussi à voler quelques pièces. Rien qui me rende riche, encore moins célèbre. J’ai même plus de succès avec mes peintures.</p>
-<p>Mais ce soir c’est différent. J’ai eu un super tuyau. Il suffit de trouver une <strong class="mc">clef</strong>. J’ai même une image de la <strong class="mc">clef</strong>. Malheureusement, elle est dans une maison immense, et extrêmement bien gardée. J’ai besoin d’un peu d’aide pour la trouver.</p>
+<p>Mais ce soir c’est différent. J’ai eu un super tuyau. Il suffit de trouver un petit objet. Malheureusement, il est dans une maison immense, et extrêmement bien gardée. J’ai besoin d’un peu d’aide pour le trouver.</p>
 <p>...</p>
-<p>Je vais à l’<strong class="mc">internat</strong>, c’est là que <strong class="people">VOYANTE</strong> se trouve. Je rentre sans difficulté dans l’<strong class="mc">enceinte</strong> de l’école, et je trouve <strong class="people">VOYANTE</strong> assez facilement. Il faut que je trouve comment la faire travailler pour moi. Je lui dis que je sais qu’elle a un <strong class="mc">pouvoir</strong>, et laisse sous entendre que ça pourrait lui causer des problème. Je lui dis que j’ai besoin d’aide pour faire quelque chose ce soir. Au final, elle accepte assez vite de m’accompagner.</p>
+<p>Je vais à l’<strong class="mc">internat</strong>, c’est là que <strong class="people">VOYANTE</strong> se trouve. Je rentre sans difficulté dans l’<strong class="mc">enceinte</strong> de l’école, et je trouve <strong class="people">VOYANTE</strong> assez facilement. Il faut que je trouve comment la faire travailler pour moi. Je lui dis que je sais qu’elle a un don, et laisse sous entendre que ça pourrait lui causer des problème. Je lui dis que j’ai besoin d’aide pour faire quelque chose ce soir. Au final, elle accepte assez vite de m’accompagner.</p>
 `, 4));
 this.fragments.push(new Fragment(userService.tele,
       ["clé","clef","cle"],
       `Internat - 15 juin 1933 - Le vol de la clef`,
-      `<p>On arrive près de la maison. Je lui montre le dessin de la <strong class="mc">clef</strong>&nbsp;que je cherche. Elle accepte d’utiliser ses talents. Apparemment <strong class="people">VOYANTE</strong> ne sais pas très bien se servir de son <strong class="mc">pouvoir</strong>. Elle utilise de la fumée venant d’un <strong class="mc">mouchoir</strong>&nbsp;qui brûle. Ce n’est certainement pas le meilleur moyen. Au bout de trois essais, elle arrive a me décrire où se trouve la <strong class="mc">clef</strong>. Je vais la ramener à l’école, j'irais chercher la <strong class="mc">clef</strong> après ça.</p>
+      `<p>On arrive près de la maison. Je lui montre le dessin de la <strong class="mc">clef</strong>&nbsp;que je cherche. Elle accepte d’utiliser ses talents. Apparemment <strong class="people">VOYANTE</strong> ne sais pas très bien se servir de son don. Elle utilise de la fumée venant d’un <strong class="mc">mouchoir</strong>&nbsp;qui brûle. Ce n’est certainement pas le meilleur moyen. Au bout de trois essais, elle arrive a me décrire où se trouve la <strong class="mc">clef</strong>. Je vais la ramener à l’école, j'irais chercher la <strong class="mc">clef</strong> après ça.</p>
 <p>Il faut que je reste en bon termes avec elle, son talent peut être très pratique.</p>
 `, 5));
 this.fragments.push(new Fragment(userService.tele,
@@ -1094,7 +1094,19 @@ this.fragments.push(new Fragment(userService.tele,
       ["télékinésie","télékinésiste","telekinesi"],
       `Paris - 12 octobre 1936 - Formule`,
       `<p>J’ai reçu une <strong class="mc">lettre</strong> de la part de <strong class="people">ERUDIT</strong>. Elle me demande d’apprendre par coeur une formule de <strong class="mc">télékinésie</strong> pour récupérer des livres depuis un lieu prédéterminé. Il faudra se tourner vers l’ouest puis lancer la formule pour suivre ce trajet :</p>
+      <ul>
+        <li>avancer de 4 mètres</li>
+        <li>tourner à droite</li>
+        <li>avancer de 6 mètres</li>
+        <li>tourner à droite</li>
+        <li>avancer de 4 mètres</li>
+        <li>tourner à gauche</li>
+        <li>avancer de 6 mètres</li>
+        <li>tourner à droite</li>
+        <li>avancer de 3 mètres</li>
+      </ul>
 <p>Hum, la formule doit être :</p>
+<p>Gadoola boo boo la la bobbidi boo boo la la la  bobbidi boo la la la la biddidi boo boo boo la la bobbidi boo la la la sala<p>
 <p>Je vais tester la formule ce soir dans la rue.</p>
 <p class="italique">Bien joué, tu te souviens de ton pouvoir de télékinésie. <a href="#/tele">Tu peux t'entrainer ici.</a></p>
 `, 7));
@@ -1121,7 +1133,7 @@ this.fragments.push(new Fragment(userService.tele,
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
 <p>“- Oui, bien sûr la voilà” répond <strong class="people">MONSTRE</strong> en montrant un petit flacon.</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p>Ça me parait louche cette histoire de potion ...</p>
 <p><strong class="people">CHEF</strong>&nbsp;se tourne à nouveau vers <strong class="mc"><strong class="people">JOURNALISTE</strong></strong> et lui demande :</p>
 <p>“- Ah ! Avez-vous les invitations ?”</p>
@@ -1147,7 +1159,7 @@ this.fragments.push(new Fragment(userService.journalist,
 <p>“- Il faudrait des sorcières ou des magiciens pour que ce soit possible”</p>
 <p>“- et pourquoi pas” me répond-il avec un sourire.</p>
 <p>J'éclate de rire. Je comprend que tout ça c’était une excuse pour me voire.</p>
-<p>La soirée est vraiment charmante, c’est rare rencontrer un homme qui autant de conversation. Il me dit qu’il est conservateur dans un musée. Pourtant il a l’air à peine plus vieux que moi. Il me dit qu’il est spécialiste de l’art japonais. Il me raconte toute l’histoire d’un tableau magnifique, qui représente une immense <strong class="mc">vague</strong>.</p>
+<p>La soirée est vraiment charmante, c’est rare rencontrer un homme qui autant de conversation. Il me dit qu’il est conservateur dans un musée. Pourtant il a l’air à peine plus vieux que moi. Il me dit qu’il est spécialiste de l’art japonais. Il me raconte toute l’histoire d’un magnifique tableau japonais.</p>
 `, 0));
 this.fragments.push(new Fragment(userService.journalist,
       ["enceinte","encinte","anceinte","ancinte"],
@@ -1173,16 +1185,16 @@ this.fragments.push(new Fragment(userService.journalist,
 this.fragments.push(new Fragment(userService.journalist,
       ["clé","clef","cle"],
       `Paris - 22 mai 1933 - Un étrange vol`,
-      `<p>Un contact <strong class="mc">policier</strong> (<strong class="people">FLIC</strong>) me raconte qu’une femme vient d'être arrêtée pour un vol, de bijoux chez un riche notable de la ville. Les bijoux on été retrouvé en sa possession, mais il ne comprend pas comment elle a pu les récupérer sans laisser de trace. Les bijoux étaient dans une pièce fermée à <strong class="mc">clef</strong> de l’intérieur, et le notable et sa femme dormait dedans, et ils n’ont rien entendu. Aucune trace. Il marmonne que ça doit être une sorcière. Quelle idiot, de croire encore aux sorcière ... J’aimerai comprendre comment elle a fait.</p>
+      `<p>Un contact flic (<strong class="people">FLIC</strong>) me raconte qu’une femme vient d'être arrêtée pour un vol, de bijoux chez un riche notable de la ville. Les bijoux on été retrouvé en sa possession, mais il ne comprend pas comment elle a pu les récupérer sans laisser de trace. Les bijoux étaient dans une pièce fermée à <strong class="mc">clef</strong> de l’intérieur, et le notable et sa femme dormait dedans, et ils n’ont rien entendu. Aucune trace. Il marmonne que ça doit être une sorcière. Quelle idiot, de croire encore aux sorcière ... J’aimerai comprendre comment elle a fait.</p>
 <p>“- Est- ce que je pourrait la voir et lui poser quelques questions ?”</p>
 <p>“- Oui”</p>
 `, 4));
 this.fragments.push(new Fragment(userService.journalist,
-      ["pouvoir","policier"],
+      ["policier"],
       `Paris, poste de police - 22 mai 1933 - Interrogatoire`,
       `<p>Je rentre dans la salle d'interrogatoire, il y a <strong class="people">TELE</strong> menottée et <strong class="people">FLIC</strong> est en face d’elle, il est en train de fumer et on voit à peine le mur du fond.</p>
 <p>Je dis à <strong class="people">VOYANTE</strong> d’aller attendre sur la chaise dans le coin de la pièce et de ne pas faire de bruit. J’essaye de lui tirer les vers du nez mais elle m’assure que ce n’est pas elle et qu’on l’a piégée. Au moment de sortire de la salle <strong class="people">VOYANTE</strong> provoque un fou-rire, en s'exclamant “Maman, je sais comment elle a fait, elle a utilisé de la <strong class="mc">magie</strong>”</p>
-`, 5));
+`, 5, ["pouvoir"]));
 this.fragments.push(new Fragment(userService.journalist,
       ["kanagawa"],
       `Paris - 25 novembre 1935 - La grande vague`,
@@ -1214,15 +1226,15 @@ this.fragments.push(new Fragment(userService.journalist,
 <p>“- Oui, c’est la grande <strong class="mc">vague</strong> de <strong class="mc">Kanagawa</strong>, il me semble que ce tableau a été volé l’année dernière”</p>
 `, 8));
 this.fragments.push(new Fragment(userService.journalist,
-      ["poème","poeme"],
+      ["stéganographie","steganographie", "steganography"],
       `Paris, dans un café - 4 octobre 1936 - Poème`,
       `<p>“- J'enquête dessus, et je pense que le tableau se trouve dans ce château. J’aimerai vous accompagner, le retrouver te le restituer aux autorités.”</p>
 <p>“- Et si le tableau ne s’y trouve pas”</p>
 <p>“- Alors je vous aurais fournis les entrées gratuitement”</p>
 <p>“- Ok, mais sachez que ça sera très dangereux. Vous serez responsable d'amener les plans du château avec vous, Et de vous assurer que si vous êtes fouillée ou interrogé on ne puisse pas savoir ce que vous transportez”</p>
 <p>On passe le reste de la matinée à mettre au point la meilleur méthode pour cacher le <strong class="mc">plan</strong>.</p>
-<p>On a décidé de cacher les informations sur des dessins dans un <strong class="mc">poème</strong>. Je trouve que c’est un peu excessif comme système, ça serait plus simple de l’apprendre par coeur. Elle semblait y tenir.</p>
-<p>L’idée est de découper le <strong class="mc">plan</strong> en 4 images, il suffit de les superposer pour avoir le <strong class="mc">plan</strong> complet. Je mettrais une croix dans la salle ou on nous fera probablement patienter. Je ne peux pas marqué le nom des salles sur le <strong class="mc">plan</strong>, apparement ça se serait trop dangereux, donc j’ai numéroté les salles. <strong class="people">ERUDIT</strong> avait peur que je n’arrive pas à mémoriser les noms des salles donc on bidouillé un <strong class="mc">poème</strong> pour s’en servir de moyen mnémotechnique tiré par les cheveux. Le <strong class="mc">poème</strong> a 4 strophes et 21 vers, un vers pour chaque salle. Chaque strophe donnent un mot et il faut que j’associe dans ma <strong class="mc">mémoire</strong> ce mot à la liste des lieux correspondant aux numéros de vers.</p>
+<p>On a décidé de cacher les informations sur des dessins dans un poème. Je trouve que c’est un peu excessif comme système, ça serait plus simple de l’apprendre par coeur. Elle semblait y tenir.</p>
+<p>L’idée est de découper le <strong class="mc">plan</strong> en 4 images, il suffit de les superposer pour avoir le <strong class="mc">plan</strong> complet. Je mettrais une croix dans la salle ou on nous fera probablement patienter. Je ne peux pas marqué le nom des salles sur le <strong class="mc">plan</strong>, apparement ça se serait trop dangereux, donc j’ai numéroté les salles. <strong class="people">ERUDIT</strong> avait peur que je n’arrive pas à mémoriser les noms des salles donc on bidouillé un poème pour s’en servir de moyen mnémotechnique tiré par les cheveux. Le poème a 4 strophes et 21 vers, un vers pour chaque salle. Chaque strophe donnent un mot et il faut que j’associe dans ma <strong class="mc">mémoire</strong> ce mot à la liste des lieux correspondant aux numéros de vers.</p>
 `, 9));
 this.fragments.push(new Fragment(userService.journalist,
       ["lezard","lézard"],
@@ -1284,7 +1296,7 @@ this.fragments.push(new Fragment(userService.journalist,
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
 <p>“- Oui, bien sûr la voilà” répond <strong class="people">MONSTRE</strong> en montrant un petit flacon.</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p><strong class="people">CHEF</strong> se tourne vers moi et demande :</p>
 <p>“- Ah ! Avez-vous les invitations ?”</p>
 <p>Je sors de mon sac une grande enveloppe d’où j’extrais 4 petits cartons d’invitation. Il m’en prend 3.</p>
@@ -1309,7 +1321,7 @@ this.fragments.push(new Fragment(userService.monstre,
       ["mariage","marriage"],
       `Paris - 28 janvier 1919 - Je suis papa`,
       `<p>Comment <strong class="mc">enceinte</strong> ? Elle est <strong class="mc">enceinte</strong>, et de moi en plus ! Jamais j’aurais cru ça possible. Pas à moi. Quelle catastrophe. Je ne peux pas me marier, et m’installer, et certainement pas avec une humaine !</p>
-<p>Pendant une seconde je me demande si je ne vais pas utiliser mon <strong class="mc">pouvoir</strong>. Mais je me ravise, ce n’est pas mon genre, et elle ne mérite pas ça. Pour certain de mon espèce c’est une habitude de s'échapper comme ça, mais pas moi.</p>
+<p>Pendant une seconde je me demande si je ne vais pas utiliser ma magie. Mais je me ravise, ce n’est pas mon genre, et elle ne mérite pas ça. Pour certain de mon espèce c’est une habitude de s'échapper comme ça, mais pas moi.</p>
 `, 1));
 this.fragments.push(new Fragment(userService.monstre,
       ["sucette","bonbon","sucreries"],
@@ -1321,7 +1333,7 @@ this.fragments.push(new Fragment(userService.monstre,
 <p>...</p>
 `, 2));
 this.fragments.push(new Fragment(userService.monstre,
-      ["espion"],
+      ["espion", "éspion", "espions"],
       `Une étrange planète - 01 février 1925 - Échappé de justesse`,
       `<p>Ils sont juste derrière moi. Je cours sans me retourner. J’arrive dans grande pièce carrée, je ferme la porte derrière moi. Elle à l’air solide, ça devrait les retenir quelque secondes. Je glisse une chaise sous la poignée pour bloquer la porte. Je cherche un moyen de me sortir de là. La pièce est assez grande, une cheminée, deux grandes fenêtres sur chacun des murs, et on est au 3ème étage. Et une seule porte. Il n’y a pas d’autre issue. Ils arrivent, Je les entends tapper sur la porte. Ces monstres ne vont pas mettre longtemps à la défoncer.</p>
 <p>Je crois que c’est la fin, je vais mourir ici. La porte commence à craquer, je sors mon révolver. J’ai 6 balles, ils sont au moins quatres, je ne pense pas que ça suffise. Je renverse le bureau qui est au milieu de la pièce, et je me mets en embuscade derrière.</p>
@@ -1332,13 +1344,13 @@ this.fragments.push(new Fragment(userService.monstre,
 `, 3));
 this.fragments.push(new Fragment(userService.monstre,
       ["zurich"],
-      `Zurich, Entrepôt en banlieu - 05 février 1927 -&nbsp;Une opération délicate`,
+      `Zurich, Entrepôt en banlieu - 05 février 1927 - Une opération délicate`,
       `<p><strong class="people">AGENT</strong> m’a demandée de venir l’aider sur une opération un peu tendue. Peut être qu’elle aura besoin d’effacer la <strong class="mc">mémoire</strong> de deux humains. Elle sait que je ne peux rien lui refuser.</p>
 <p>…</p>
 <p>On a décidé que je resterai en arrière, sans me faire repérer. Je n’interviendrais que s’il y a besoin. La connaissant il n’y aura pas besoin, elle se débrouille bien toute seule. Je la soupçonne d’avoir utilisé cette <strong class="mc">mission</strong> comme excuse pour me voir. Depuis deux ans qu’on se connaît, on ne devrait plus avoir besoin de ce genre d’excuse.</p>
 <p>Je la suis de loin, comme prévue. Elle rencontre <strong class="people">CHEF</strong> et <strong class="people">SOLDAT</strong>, je me demande si elle va leur dire que c’est grâce à eux qu’elle a trouvé le <strong class="mc">portail</strong>. Elle a posée la bombe, je pense qu’elle ne leur a pas dit que ce que c’était. Ils vont avoir une drôle de surprise.</p>
 <p>La bombe a explosé au bon moment, et le <strong class="mc">portail</strong> est définitivement fermé, la <strong class="mc">mission</strong> et un succès.</p>
-<p>Je vais <strong class="mc">pouvoir</strong> rentrer avec <strong class="people">AGENT</strong>. J’ai loué une chambre d'hôtel pour la nuit, ça sera parfait !</p>
+<p>Je vais pouvoir rentrer avec <strong class="people">AGENT</strong>. J’ai loué une chambre d'hôtel pour la nuit, ça sera parfait !</p>
 `, 4));
 this.fragments.push(new Fragment(userService.monstre,
       ["vacances","plage","maria"],
@@ -1382,8 +1394,8 @@ this.fragments.push(new Fragment(userService.monstre,
 <p>“- Monsieur, comment dois-je vous appeler ?”</p>
 <p>“- Heu … Jules … oui, c’est ça, Docteur Jules”, j’invente ce nom un peu au hasard. Il m’a pris de court.</p>
 <p>“- Bien docteur, vous avez la potion promise ?”</p>
-<p>“- Oui, bien sûr la voilà” je réponds en montrant un petit flacon. Ils ne savent pas qu’en réalité ce n’est que de l’eau sucrée avec un peu de colorant. C’est tout ce que j’ai trouvé pour cacher mon <strong class="mc">pouvoir</strong>. <strong class="people">CHEF</strong> continue :</p>
-<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de <strong class="mc">pouvoir</strong> mentir et résister aux interrogatoire bien plus efficacement.“</p>
+<p>“- Oui, bien sûr la voilà” je réponds en montrant un petit flacon. Ils ne savent pas qu’en réalité ce n’est que de l’eau sucrée avec un peu de colorant. C’est tout ce que j’ai trouvé pour cacher mon pouvoir. <strong class="people">CHEF</strong> continue :</p>
+<p>“- Juste avant d’arriver au château, nous allons boire de cette potion. Ses effets sont très efficaces et nous permettront de pouvoir mentir et résister aux interrogatoire bien plus efficacement.“</p>
 <p>Il y a <strong class="people">VOYANTE</strong> qui se rapproche de moi, on dirait qu’elle essaye de voir qui je suis. J’espère qu’elle ne m’a pas reconnue.</p>
 <p><strong class="people">CHEF</strong> finit le briefing en distribuant les invitations qui nous permettrons de rentrer au château.</p>
 `, 8));
