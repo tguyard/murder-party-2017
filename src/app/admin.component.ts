@@ -9,27 +9,13 @@ import { User } from './users.service';
 })
 export class AdminComponent {
 
-  public defaultPeople = [
-    {name: 'CONTREMAITRE', value: '☯'},
-    {name: 'SOLDAT',       value: '♞'},
-    {name: 'AGENT',        value: '☂'},
-    {name: 'JOURNALISTE',  value: '★'},
-    {name: 'ERUDIT',       value: '☀'},
-    {name: 'MONSTRE',      value: '❤'},
-    {name: 'TELE',         value: '☢'},
-    {name: 'VOYANTE',      value: '☎'},
-    {name: 'CHEF',         value: '⚐'},
-    {name: 'ESCLAVE',      value: '⚓'},
-    {name: 'FLIC',         value: '♬'},
-    {name: 'SUPERIEUR',    value: '☘'}
-  ];
-
   public users = [];
   public origin = window.location.origin;
   constructor(
     public memoryService: MemoryService,
     public fragmentService: FragmentService,
   ) {
+
     const users: {[name: string]: {w: string[], u: User}} = {};
     for (let i = 0; i < fragmentService.fragments.length; ++i) {
       const f = fragmentService.fragments[i];

@@ -6,7 +6,7 @@
 
   <section>
     <article >
-      <div class="qui-line" *ngFor="let p of defaultPeople">
+      <div class="qui-line" *ngFor="let p of memoryService.defaultPeople">
         <div>{{ p.value }}:</div> <input type="text" [(ngModel)]="memoryService.people[p.name]"/>
       </div>
     </article>
