@@ -204,7 +204,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
 <p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
 <p>Je continue :</p>
-<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
+<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> <strong class="mc">Mortebière</strong>&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
 `, 12, ["pouvoir"]));
 this.fragments.push(new Fragment(userService.chef,
       ["suzanne","suzane"],
@@ -263,7 +263,7 @@ this.fragments.push(new Fragment(userService.chef,
 <p>“- Oui, ils ont tous accepté en connaissance de cause.” &nbsp;confirme <strong class="people">ERUDIT</strong></p>
 `, 17));
 this.fragments.push(new Fragment(userService.chef,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - La mission`,
       `<p>“- Le but de notre opération est d'empêcher un <strong class="mc">attentat</strong>, et de neutraliser tous les terroristes. Nous irons ce soir au châteaux nous infiltrer au <strong class="mc">mariage</strong> de Hector de La Grande Marche et Marie Elisabeth d’Autriche. Ce <strong class="mc">mariage</strong> c’est qu’un prétexte pour inviter une grande quantité de notable et dirigeant dans le but de les assassiner.</p>
 <p>Nous savons que l’<strong class="mc">attentat</strong> surviendra quand tout le monde sera rassemblé dans la grande salle, à partir de minuit. Nous avons une bombe et notre seule chance d'empêcher le massacre est de la faire exploser exactement au bon moment et au bon endroit pour éliminer les terroristes à leur arrivée.”</p>
@@ -451,7 +451,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
 <p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” j’ajoute.</p>
 <p><strong class="people">CHEF</strong> continue :</p>
-<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong>&nbsp;!”</p>
+<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupe de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> <strong class="mc">Mortebière</strong>&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong>&nbsp;!”</p>
 `, 7, ["pouvoir"]));
 this.fragments.push(new Fragment(userService.soldat,
       ["15","53"],
@@ -514,7 +514,7 @@ this.fragments.push(new Fragment(userService.soldat,
 <p>“- Bonne idée, je vais faire la même chose”</p>
 `, 13));
 this.fragments.push(new Fragment(userService.soldat,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - Le briefing`,
       `<p>Ça frappe à la porte, <strong class="people">CHEF</strong> s’approche et frappe un coup, on entend 3 coups en réponses. &nbsp;<strong class="people">CHEF</strong> déverrouille la porte et la laisse entrer avec la personnes qu’il l'accompagne. Après quelque secondes <strong class="people">CHEF</strong> pousse un soupir et prend la parole :</p>
 <p>“- Bonjour à tous. Merci d’être là à l’heure. Pour des raisons de sécurité, vous n’avez pas été tenu de la nature exacte de cette opération. Normalement on vous a prévenu que la <strong class="mc">mission</strong> était dangereuse.”</p>
@@ -683,7 +683,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>“- Un fois qu’on a trouvé où sera le <strong class="mc">portail</strong>, <strong class="mc">Rina</strong> trouve l’endroit et on téléporte la bombe là bas.”</p>
 <p>“- Oui, et je viens quand même. Si on ne trouve pas, ça peut être pas mal de pouvoir désamorcer la bombe.” ajoute <strong class="people">SOLDAT</strong>.</p>
 <p><strong class="people">CHEF</strong> continue :</p>
-<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupes de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> Mortebière&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
+<p>“- Oui. Donc, <strong class="mc">Roberta</strong>, tu t’occupes de parler de cette <strong class="mc">mission</strong> à <strong class="mc">Rina</strong>. <strong class="mc">Maurice</strong>, tu prépare la bombe, il ne faut aucune écriture dessus ! Je vais arranger le transport et la logistique pour avoir un endroit ou se préparer avant le <strong class="mc">mariage</strong>. Je connais le patron du <strong class="mc">bar</strong> <strong class="mc">Mortebière</strong>&nbsp;à Caen par exemple. En parallèle, tout le monde cherche ‘discrètement’ un moyen d’avoir les invitations au <strong class="mc">mariage</strong> et le <strong class="mc">plan</strong> du chateaux. Ah et bien sur, enquêtez pour trouver un <strong class="mc">télékinésiste</strong> !”</p>
 `, 7, ["pouvoir"]));
 this.fragments.push(new Fragment(userService.erudit,
       ["attentat","attenta","atenta","atentat","attantat","attanta","atanta"],
@@ -747,7 +747,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>Puis je reprend la conversation avec <strong class="people">CHEF</strong></p>
 `, 11));
 this.fragments.push(new Fragment(userService.erudit,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - Le briefing`,
       `<p>Je frappe à la porte au fond du <strong class="mc">bar</strong>. Après quelques seconde, j’entend 1 coup sourd. Je répond 3 coups en réponse, comme convenu. La porte se déverrouille, <strong class="people">CHEF</strong> me laisse entrer et je fais signe à <strong class="people">VOYANTE</strong> de me suivre.</p>
 <p>Après quelque secondes <strong class="people">CHEF</strong> pousse un soupir et prend la parole :</p>
@@ -820,7 +820,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>Un dernier pouvoir souvent dénigré chez les psychéïdes est l’effacement de mémoire. Ce pouvoir n’a en effet peu d'applications pacifiques et est principalement utilisé dans le domaine du crime ou en combat. L’effacement de mémoire peut être éphémère ou permanent en fonction de la puissance émise par le psychéïde, la puissance est difficile à réguler. Certains des effaceurs les plus puissants arrivent à cibler un groupe entier.</p>
 `, 16));
 this.fragments.push(new Fragment(userService.erudit,
-      ["avantagesformesirinéen"],
+      ["avantagesformesirinéen", "avantagesformesirineen", "avantagesformesirinen"],
       `📖 Le grand livre des pouvoirs: Pouvoir des Sirinéen 📖`,
       `<p>Les Sirinéen&nbsp;peuvent généralement changer de forme&nbsp;ce qui leur donne de nombreux avantages.</p>
 <p>Leur art de l’imitation peut être très bonne, allant même jusqu'à reproduire les métabolismes des créatures copiées. Il est parfois possible de combiner plusieurs métabolismes pour cumuler les avantages de plusieurs forme de vie.</p>
@@ -830,7 +830,7 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>Même si les conventions planaire l'interdisent, il semblerait que leur capacité à imiter les métabolismes permet parfois une copulation fertile et a permis la naissance d’hybride cumulant les pouvoirs de plusieurs plans. Les hybrides sont très rarement fertiles à leur tour et la transmission de pouvoirs et encore plus rare dans ce cas.</p>
 `, 17));
 this.fragments.push(new Fragment(userService.erudit,
-      ["systématiquesdahonaincompatibilité"],
+      ["systématiquesdahonaincompatibilité", "systématiquedahonaincompatibilité", "systématiquedahonaincompatibilite", "systématiquesdahonaincompatibilite", "systematiquedahonaincompatibilite", "systematiquesdahonaincompatibilite"],
       `📖 Le grand livre des pouvoirs: Pouvoir des Dahona 📖`,
       `<p>Les Dahona&nbsp;sont connus pour leur exactions systématiques&nbsp;et leur incompatibilité&nbsp;avec toute vie en communauté.</p>
 <p>Les Dahona sont les créatures les plus dangereuses que l’on connaisse.</p>
@@ -846,7 +846,8 @@ this.fragments.push(new Fragment(userService.erudit,
 <p>Quand ils ne sont pas en train de nous dévorer, ils sont jovials, distingués et cultivés. Ils n’ont pas de haine pour les peuble dévorés, mais leur faim finit toujours par couper court à leur relations amicales initiale.</p>
 `, 18));
 this.fragments.push(new Fragment(userService.erudit,
-      ["bâtisseurstélékinésiebeaucoup","batisseurstelekinesiebeaucoup","bâtisseurstelekinesiebeaucoup","batisseurstélékinesiebeaucoup","batisseurstélekinesiebeaucoup","batisseurstelékinesiebeaucoup"],
+      ["bâtisseurstélékinésiebeaucoup","batisseurstelekinesiebeaucoup","bâtisseurstélékinesiebeaucoup","bâtisseurstélekinesiebeaucoup",
+      "bâtisseurstelekinesiebeaucoup","batisseurstélékinesiebeaucoup","batisseurstélekinesiebeaucoup","batisseurstelékinesiebeaucoup"],
       `📖 Le grand livre des pouvoirs: Pouvoir des Nemateliques 📖`,
       `<p>Les Némateliques sont un peuple bâtisseurs. Leur différents pouvoirs de télékinésie&nbsp;les ont beaucoup&nbsp;aidé dans cette tâche.</p>
 <p>Les Némateliques sont organisé en tribus et chacune a développé des manières différentes d’utiliser les pouvoirs de télékinésie, avec des syntaxe spécifique et des effets très variables.</p>
@@ -997,7 +998,7 @@ this.fragments.push(new Fragment(userService.voyant,
 
       `, 9));
 this.fragments.push(new Fragment(userService.voyant,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - Le briefing`,
       `<p>Je suis dans une petite pièce sombre. J’entends des rires et des chants de l’autre côté de la porte, venant d’un <strong class="mc">bar</strong>. On doit être six ou sept dans cette pièce, et dans la pénombre je n’arrive pas à voir tous les visages. Je reconnais <strong class="people">ERUDIT</strong> et son mari. C’est lui qui organise ce briefing.</p>
 <p><strong class="people">CHEF</strong> nous explique ce qu’on fait ce soir, c’est long, et je n’écoute pas tout en détails :</p>
@@ -1111,7 +1112,7 @@ this.fragments.push(new Fragment(userService.tele,
 <p class="italique">Bien joué, tu te souviens de ton pouvoir de télékinésie. <a href="#/tele">Tu peux t'entrainer ici.</a></p>
 `, 7));
 this.fragments.push(new Fragment(userService.tele,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - Le briefing`,
       `<p>Je suis dans une petite pièce sombre. J’entends des rires et des chants de l’autre côté de la porte, venant d’un <strong class="mc">bar</strong>. On doit être six ou sept dans cette pièce, et dans la pénombre je n’arrive pas à voir tous les visages. Je reconnais <strong class="people">ERUDIT</strong> et la personne à coté doit être son mari. Il commence la réunion en disant :</p>
 <p>“- Bonjour à tous. Merci d’être là à l’heure. Pour des raisons de sécurité, vous n’avez pas été tenu au courant de la nature exacte de cette opération. Normalement on vous a prévenu que la <strong class="mc">mission</strong> était dangereuse.”</p>
@@ -1274,7 +1275,7 @@ this.fragments.push(new Fragment(userService.journalist,
 <p>Cuisine</p>
 `, 13));
 this.fragments.push(new Fragment(userService.journalist,
-      ["mortebiere"],
+      ["mortebiere", "mortebière", "mortebierre", "mortebièrre", "mortebiére", "mortebiérre"    ],
       `Caen, Bar - Ce midi - Le briefing`,
       `<p>Je suis dans une petite pièce sombre. J’entends des rires et des chants de l’autre côté de la porte, venant d’un <strong class="mc">bar</strong>. On doit être six ou sept dans cette pièce, et dans la pénombre je n’arrive pas à voir les visages. Je reconnais <strong class="people">ERUDIT</strong> et <strong class="people">CHEF</strong> l’un à coté de l’autre. Il y a aussi <strong class="people">SOLDAT</strong>, ce doit être leur majordome. <strong class="people">CHEF</strong> commence la réunion en disant :</p>
 <p>“- Bonjour à tous. Merci d’être là à l’heure. Pour des raisons de sécurité, vous n’avez pas été tenu au courant de la nature exacte de cette opération. Normalement on vous a prévenu que la <strong class="mc">mission</strong> était dangereuse.”</p>
